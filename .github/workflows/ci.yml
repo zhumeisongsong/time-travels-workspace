@@ -18,6 +18,9 @@ jobs:
     - name: Print current directory
       run: pwd
 
+    - name: List files in the root directory
+      run: ls -la
+
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
 
