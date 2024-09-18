@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
+
+  lint:
+    needs: setup
+    uses: zhumeisongsong/shared-actions/.github/workflows/nextjs-lint.yml@main
+    
+  type-check:
+    needs: setup
+    uses: zhumeisongsong/shared-actions/.github/workflows/nextjs-type-check.yml@main
