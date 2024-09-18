@@ -5,8 +5,10 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "type-check": "turbo run type-check",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "clean": "turbo run clean && rm -rf node_modules"
   },
   "devDependencies": {
     "git-cz": "^4.9.0",
@@ -17,5 +19,9 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "volta": {
+    "node": "20.17.0",
+    "pnpm": "8.15.6"
   }
 }
