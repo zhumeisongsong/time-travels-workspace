@@ -1,0 +1,10 @@
+{
+  "name": "quiz-game-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/quiz-game-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["quiz-game"],
+  "// targets": "to see all targets run: nx show project quiz-game-e2e --web",
+  "targets": {}
+}
