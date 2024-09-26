@@ -14,6 +14,5 @@ jobs:
   publish-packages:
     needs: setup
     uses: zhumeisongsong/shared-actions/.github/workflows/nx-publish-packages.yml@main
-    with:
-      npm-access-token: ${{ secrets.NPM_ACCESS_TOKEN }}
-    
+    secrets:
+      npm-access-token: ${{ secrets.NPM_ACCESS_TOKEN }} 
