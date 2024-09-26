@@ -8,6 +8,8 @@ on:
 jobs:
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
+    secrets:
+      npm-access-token: ${{ secrets.NPM_ACCESS_TOKEN }}
 
   publish-packages:
     needs: setup
