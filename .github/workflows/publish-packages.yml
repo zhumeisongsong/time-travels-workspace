@@ -1,0 +1,15 @@
+name: Publish Packages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup:
+    uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
+
+  publish-packages:
+    needs: setup
+    uses: zhumeisongsong/shared-actions/.github/workflows/nx-publish-packages.yml@main
+    
