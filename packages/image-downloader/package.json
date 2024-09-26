@@ -6,6 +6,6 @@
   "module": "./index.mjs",
   "typings": "./index.d.ts",
   "repository": {
-    "url": "https://github.com/zhumeisongsong/time-travels-workspace/packages/image-downloader"
+    "url": "https://github.com/zhumeisongsong/time-travels-workspace"
   }
 }
