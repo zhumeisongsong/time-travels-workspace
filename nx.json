@@ -63,13 +63,14 @@
     }
   },
   "release": {
-    "projects": ["image-downloader"],
+    "projects": ["image-downloader", "git-cz-config"],
     "version": {
+      "preVersionCommand": "pnpm dlx nx run-many -t build",
       "conventionalCommits": true
     },
     "changelog": {
       "workspaceChangelog": {
-          "createRelease": "github"
+        "createRelease": "github"
       }
     }
   }

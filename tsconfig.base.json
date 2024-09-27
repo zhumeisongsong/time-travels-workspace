@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@zhumeisongsong/git-cz-config": ["packages/git-cz-config/src/index.ts"],
       "image-url-downloader": ["packages/image-downloader/src/index.ts"]
     }
   },
