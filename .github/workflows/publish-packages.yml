@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write  # Grant write access to the id-token permission
+  contents: read   # Adjust other permissions as necessary
+  packages: write  # Needed if you are publishing packages
+
 jobs:
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
@@ -12,4 +17,5 @@ jobs:
   publish-packages:
     needs: setup
     uses: zhumeisongsong/shared-actions/.github/workflows/nx-publish-packages.yml@main
-    
+    secrets:
+      npm-access-token: ${{ secrets.NPM_ACCESS_TOKEN }} 
