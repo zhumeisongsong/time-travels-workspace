@@ -1,11 +1,18 @@
 {
   "name": "@zhumeisongsong/git-cz-config",
-  "version": "0.0.1",
-  "dependencies": {},
+  "version": "1.0.0",
+  "dependencies": {
+    "git-cz": "^4.9.0"
+  },
   "main": "./index.js",
   "module": "./index.mjs",
   "typings": "./index.d.ts",
   "repository": {
     "url": "https://github.com/zhumeisongsong/time-travels-workspace"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
   }
 }
