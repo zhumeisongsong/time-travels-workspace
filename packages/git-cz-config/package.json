@@ -1,0 +1,23 @@
+{
+  "name": "@zhumeisongsong/git-cz-config",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    },
+    "git-cz": {
+      "config": "./src/index.js"
+    }
+  }
+}
