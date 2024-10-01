@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "commit":"git-cz"
+    "commit": "git-cz"
   },
   "private": true,
   "dependencies": {

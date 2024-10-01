@@ -1,6 +1,4 @@
-console.log("Loading git-cz-config---------------------------------------------");
-
-module.exports = {
+const config = {
   disableEmoji: false,
   format: '{type}{scope}: {emoji}{subject}',
   list: [
@@ -100,3 +98,5 @@ module.exports = {
     },
   },
 };
+
+export default config;
