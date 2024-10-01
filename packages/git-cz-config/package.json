@@ -10,6 +10,9 @@
   "devDependencies": {
     "git-cz": "^4.9.0"
   },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
   "config": {
     "commitizen": {
       "path": "git-cz"
