@@ -1,11 +1,10 @@
 {
   "name": "@zhumeisongsong/git-cz-config",
   "version": "0.0.1",
-  "dependencies": {
-    "tslib": "^2.3.0"
-  },
-  "type": "commonjs",
-  "main": "./src/index.js",
+  "dependencies": {},
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts",
   "scripts": {
     "commit": "git-cz"
   },
@@ -17,7 +16,11 @@
       "path": "git-cz"
     },
     "git-cz": {
-      "config": "./src/index.js"
+      "config": "./index.js"
     }
+  },
+  "repository": {
+    "url": "https://github.com/zhumeisongsong/time-travels-workspace"
   }
+
 }
