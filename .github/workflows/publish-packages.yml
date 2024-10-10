@@ -7,7 +7,7 @@ on:
 
 permissions:
   id-token: write  # Grant write access to the id-token permission
-  contents: read   # Adjust other permissions as necessary
+  contents: write  # Adjust other permissions as necessary
   packages: write  # Needed if you are publishing packages
 
 jobs:
