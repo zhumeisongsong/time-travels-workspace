@@ -19,7 +19,7 @@
       "executor": "nx:run-commands",
       "outputs": [],
       "options": {
-        "command": "pnpx semantic-release-plus --extends ./packages/react-markdown-mermaid/release.config.cjs",
+        "command": "npx semantic-release-plus --extends ./packages/react-markdown-mermaid/release.config.cjs",
         "parallel": false
       }
     }
