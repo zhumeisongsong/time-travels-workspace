@@ -66,17 +66,5 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     }
-  },
-  "release": {
-    "projects": ["image-downloader", "git-cz-config"],
-    "version": {
-      "preVersionCommand": "pnpm dlx nx run-many -t build",
-      "conventionalCommits": true
-    },
-    "changelog": {
-      "workspaceChangelog": {
-        "createRelease": "github"
-      }
-    }
   }
 }
