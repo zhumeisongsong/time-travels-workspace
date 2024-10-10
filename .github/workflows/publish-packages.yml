@@ -12,10 +12,10 @@ permissions:
 
 jobs:
   setup:
-    uses: zhumeisongsong/shared-actions/.github/workflows/pnpm-setup.yml@main
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-pnpm-setup.yml@main
 
   publish-packages:
     needs: setup
-    uses: zhumeisongsong/shared-actions/.github/workflows/nx-publish-packages.yml@main
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-publish-packages.yml@main
     secrets:
-      npm-access-token: ${{ secrets.NPM_ACCESS_TOKEN }} 
+      NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }} 
