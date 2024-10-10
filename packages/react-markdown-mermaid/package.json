@@ -1,11 +1,13 @@
 {
-  "name": "image-url-downloader",
-  "version": "0.0.1",
+  "name": "react-markdown-mermaid",
+  "version": "0.0.0-semantic-release",
   "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",
   "typings": "./index.d.ts",
   "repository": {
+    "type": "git",
     "url": "https://github.com/zhumeisongsong/time-travels-workspace"
-  }
+  },
+  "readme": "README.md"
 }

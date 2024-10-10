@@ -1,11 +1,10 @@
 {
   "name": "@time-travels-workspace/source",
-  "version": "0.0.0",
+  "version": "0.0.0-semantic-release",
   "license": "MIT",
   "scripts": {
     "commit": "git-cz"
   },
-  "private": true,
   "dependencies": {
     "@nx/remix": "19.8.2",
     "@remix-run/node": "^2.8.1",
@@ -28,6 +27,8 @@
     "@playwright/test": "^1.36.0",
     "@remix-run/dev": "^2.8.1",
     "@remix-run/testing": "^2.8.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -48,6 +49,9 @@
     "jsdom": "~22.1.0",
     "nx": "19.8.2",
     "prettier": "^2.6.2",
+    "semantic-release": "^24.1.2",
+    "semantic-release-npm-github-publish": "^1.5.5",
+    "semantic-release-plus": "^20.0.0",
     "tslib": "^2.3.0",
     "typescript": "~5.5.2",
     "typescript-eslint": "^8.0.0",
