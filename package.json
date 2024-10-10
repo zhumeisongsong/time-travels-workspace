@@ -5,6 +5,11 @@
   "scripts": {
     "commit": "git-cz"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "dependencies": {
     "@nx/remix": "19.8.2",
     "@remix-run/node": "^2.8.1",
@@ -68,9 +73,9 @@
   "nx": {
     "includedScripts": []
   },
-  "config": {
+ "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "git-cz"
     }
   }
 }
