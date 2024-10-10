@@ -13,3 +13,25 @@ permissions:
 jobs:
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/reusable-pnpm-setup.yml@main
+  
+  publish-packages:
+      name: Publish packages
+      needs: setup
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+        - name: Nx set shas
+          uses: nrwl/nx-set-shas@v4
+        - name: Restore pnpm store and install dependencies
+          uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
+        - name: Build
+          run: pnpm nx run-many -target=build --parallel=3
+        - name: Publish to npm
+          env:
+            NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+          run: |
+            pnpm nx run-many -target=release
+            pnpm semantic-release-plus

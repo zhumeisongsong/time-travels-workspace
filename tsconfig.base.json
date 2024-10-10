@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "react-markdown-mermaid": ["packages/react-markdown-mermaid/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
