@@ -27,6 +27,8 @@ jobs:
         uses: nrwl/nx-set-shas@v4
       - name: Restore pnpm store and install dependencies
         uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
+        with:
+          NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
       - name: Build
         run: pnpm nx run-many -target=build --parallel=3
       - name: Publish to npm
