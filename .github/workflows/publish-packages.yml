@@ -31,7 +31,7 @@ jobs:
         run: pnpm nx run-many -target=build --parallel=3
       - name: Publish to npm
         env:
-          GITHUB_TOKEN: ${{ secrets. GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}
           NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
         run: |
           pnpm nx run-many -target=release
