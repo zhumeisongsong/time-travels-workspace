@@ -14,8 +14,6 @@ permissions:
 jobs:
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/reusable-pnpm-setup.yml@main
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-packages:
     name: Publish packages
@@ -30,8 +28,14 @@ jobs:
         uses: nrwl/nx-set-shas@v4
       - name: Restore pnpm store and install dependencies
         uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
-        with:
+      - name: Setup npmrc
+        env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+           //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        shell: bash
       - name: Build
         run: pnpm nx run-many -target=build --parallel=3
       - name: Publish to npm
