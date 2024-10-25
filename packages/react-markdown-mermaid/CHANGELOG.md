@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zhumeisongsong/time-travels-workspace/compare/react-markdown-mermaid-v1.0.0...react-markdown-mermaid-v1.1.0) (2024-10-25)
+
+
+### Features
+
+* ✨ add access to publishConfig ([c56f0b2](https://github.com/zhumeisongsong/time-travels-workspace/commit/c56f0b23c0ac8ea11bdef3a0b6b4cda8e5af4786))
+
 # 1.0.0 (2024-10-25)
 
 
