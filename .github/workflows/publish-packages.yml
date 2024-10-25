@@ -6,13 +6,16 @@ on:
       - main
 
 permissions:
-  id-token: write # Grant write access to the id-token permission
-  contents: write # Adjust other permissions as necessary
-  packages: write # Needed if you are publishing packages
+  contents: write # to be able to publish a GitHub release
+  issues: write # to be able to comment on released issues
+  pull-requests: write # to be able to comment on released pull requests
+  id-token: write # to enable use of OIDC for npm provenance
 
 jobs:
   setup:
     uses: zhumeisongsong/shared-actions/.github/workflows/reusable-pnpm-setup.yml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-packages:
     name: Publish packages
@@ -28,13 +31,13 @@ jobs:
       - name: Restore pnpm store and install dependencies
         uses: zhumeisongsong/shared-actions/.github/actions/pnpm@main
         with:
-          NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build
         run: pnpm nx run-many -target=build --parallel=3
       - name: Publish to npm
         env:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
-          NPM_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
           pnpm nx run-many -target=release
           pnpm semantic-release-plus
