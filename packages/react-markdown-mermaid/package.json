@@ -9,5 +9,9 @@
     "type": "git",
     "url": "https://github.com/zhumeisongsong/time-travels-workspace"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "readme": "README.md"
 }
