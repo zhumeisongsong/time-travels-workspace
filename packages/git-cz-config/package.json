@@ -1,5 +1,5 @@
 {
-  "name": "@zhumeisongsong/git-cz-config",
+  "name": "@zhumeisong/git-cz-config",
   "version": "0.0.0-semantic-release",
   "type":"commonjs",
   "dependencies": {},
