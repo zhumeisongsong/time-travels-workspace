@@ -3,9 +3,10 @@
   "extends": ["config:recommended"],
   "labels": ["type: dependencies"],
   "dependencyDashboard": true,
-  "baseBranches": ["develop"],
+  "baseBranches": ["main","/^release\\/.*/"],
   "separateMultipleMajor": true,
   "timezone": "Asia/Tokyo",
+  "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "packageRules": [
