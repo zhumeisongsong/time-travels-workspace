@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/zhumeisongsong/time-travels-workspace/compare/git-cz-config-v1.0.1...git-cz-config-v1.0.2) (2024-10-28)
+
+
+### Bug Fixes
+
+* 🐛 private to false ([e3a4893](https://github.com/zhumeisongsong/time-travels-workspace/commit/e3a4893cda3153911867307168c25a082f91f212))
+
 ## [1.0.1](https://github.com/zhumeisongsong/time-travels-workspace/compare/git-cz-config-v1.0.0...git-cz-config-v1.0.1) (2024-10-28)
 
 
