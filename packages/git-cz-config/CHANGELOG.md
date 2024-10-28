@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/zhumeisongsong/time-travels-workspace/compare/git-cz-config-v1.0.0...git-cz-config-v1.0.1) (2024-10-28)
+
+
+### Bug Fixes
+
+* 🐛 scope of npm package name ([b7545d7](https://github.com/zhumeisongsong/time-travels-workspace/commit/b7545d7974b1e7ba9d14dfd11256e48eac73e4b1))
+
 # 1.0.0 (2024-10-28)
 
 
