@@ -3,7 +3,7 @@ const srcRoot = `packages/${name}`;
 
 module.exports = {
   extends: 'release.config.base.cjs',
-  pkgRoot: `dist/${srcRoot}`,
+  pkgRoot: `${srcRoot}`,
   tagFormat: name + '-v${version}',
   commitPaths: [`${srcRoot}/*`],
   plugins: [
