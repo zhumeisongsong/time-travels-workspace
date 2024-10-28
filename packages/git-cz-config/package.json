@@ -2,6 +2,7 @@
   "name": "@zhumeisong/git-cz-config",
   "version": "1.0.1",
   "type": "commonjs",
+  "private": false,
   "dependencies": {},
   "main": "./index.js",
   "repository": {
