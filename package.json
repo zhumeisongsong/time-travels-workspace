@@ -10,6 +10,7 @@
       "main"
     ]
   },
+  "private": true,
   "dependencies": {
     "@nx/remix": "19.8.6",
     "@remix-run/node": "^2.8.1",
