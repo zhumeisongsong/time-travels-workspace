@@ -7,7 +7,7 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhumeisongsong/time-travels-workspace"
+    "url": "https://github.com/zhumeisongsong/multiple-products-workspace"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
