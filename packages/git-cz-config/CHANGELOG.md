@@ -5,6 +5,13 @@
 
 * ✨ add @semantic-release/github to config ([659e791](https://github.com/zhumeisongsong/time-travels-workspace/commit/659e79119b0f1e73a953139d85183f6bd21b6a31))
 
+# [1.1.0](https://github.com/zhumeisongsong/time-travels-workspace/compare/git-cz-config-v1.0.2...git-cz-config-v1.1.0) (2024-10-29)
+
+
+### Features
+
+* ✨ add @semantic-release/github to config ([659e791](https://github.com/zhumeisongsong/time-travels-workspace/commit/659e79119b0f1e73a953139d85183f6bd21b6a31))
+
 ## [1.0.2](https://github.com/zhumeisongsong/time-travels-workspace/compare/git-cz-config-v1.0.1...git-cz-config-v1.0.2) (2024-10-28)
 
 
