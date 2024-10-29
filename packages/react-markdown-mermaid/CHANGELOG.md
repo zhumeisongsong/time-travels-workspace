@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/zhumeisongsong/time-travels-workspace/compare/react-markdown-mermaid-v1.1.0...react-markdown-mermaid-v1.2.0) (2024-10-29)
+
+
+### Features
+
+* ✨ add @semantic-release/github to config ([659e791](https://github.com/zhumeisongsong/time-travels-workspace/commit/659e79119b0f1e73a953139d85183f6bd21b6a31))
+
 # [1.1.0](https://github.com/zhumeisongsong/time-travels-workspace/compare/react-markdown-mermaid-v1.0.0...react-markdown-mermaid-v1.1.0) (2024-10-25)
 
 
