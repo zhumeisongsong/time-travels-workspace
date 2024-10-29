@@ -7,6 +7,7 @@ module.exports = {
     'docs',
     'style',
     'refactor',
+    'release',
     'perf',
     'test',
     'build',
@@ -47,7 +48,7 @@ module.exports = {
       value: 'style',
     },
     refactor: {
-      description: 'A code change that neither fixes a bug or adds a feature',
+      description: 'A code change that neither fixes a bug nor adds a feature',
       emoji: '♻️',
       value: 'refactor',
     },

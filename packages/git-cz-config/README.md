@@ -3,7 +3,7 @@
 Create a `changelog.config.cjs` file and add:
 
 ```
-const gitCzConfig = require('@zhumeisongsong/git-cz-config');
+const gitCzConfig = require('@zhumeisong/git-cz-config');
 
 module.exports = {
   ...gitCzConfig,
