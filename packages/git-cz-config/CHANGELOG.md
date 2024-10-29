@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.1.0...git-cz-config-v1.1.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* 🐛 Fix config file path ([651c719](https://github.com/zhumeisongsong/multiple-products-workspace/commit/651c719595f42c475bb90d20f65a01438ae3b6b4))
+
 # [1.1.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.0.2...git-cz-config-v1.1.0) (2024-10-29)
 
 
