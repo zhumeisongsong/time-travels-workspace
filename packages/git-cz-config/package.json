@@ -2,6 +2,13 @@
   "name": "@zhumeisong/git-cz-config",
   "version": "1.1.1",
   "type": "commonjs",
+  "keywords": [
+    "commitizen",
+    "cz-customizable",
+    "cz-config",
+    "cz",
+    "config"
+  ],
   "private": false,
   "dependencies": {},
   "main": "./index.js",
