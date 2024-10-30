@@ -64,7 +64,7 @@ module.exports = {
     },
     build: {
       description:
-        'Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)',
+        'Changes that affect the build system or external dependencies (example scopes: npm, pnpm, webpack)',
       emoji: '🏗',
       value: 'build',
     },
