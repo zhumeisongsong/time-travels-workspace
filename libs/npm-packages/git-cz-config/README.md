@@ -7,6 +7,7 @@ Semantic Git commits config with emoji. ✨🐛💄💚
 1. Install git-cz by : `pnpm install git-cz -D`
 
 2. Config it in package.json:
+
 ```
  "config": {
     "commitizen": {

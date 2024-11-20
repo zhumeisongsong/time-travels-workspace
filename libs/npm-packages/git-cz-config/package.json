@@ -1,14 +1,21 @@
 {
-  "name": "react-markdown-mermaid",
-  "version": "0.0.0-semantic-release",
+  "name": "@zhumeisong/git-cz-config",
+  "version": "1.2.0",
+  "type": "commonjs",
+  "keywords": [
+    "commitizen",
+    "cz-customizable",
+    "cz-config",
+    "cz",
+    "config"
+  ],
+  "private": false,
   "dependencies": {},
   "main": "./index.js",
-  "module": "./index.mjs",
-  "typings": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
-    "directory": "libs/react-markdown-mermaid"
+    "directory": "libs/npm-packages/git-cz-config"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

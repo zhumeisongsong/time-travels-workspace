@@ -1,0 +1,9 @@
+{
+  "name": "graphql-code-generator",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/graphql-code-generator/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project graphql-code-generator --web",
+  "targets": {}
+}

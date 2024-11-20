@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "codegen": "dotenv -e ../../.env.local graphql-codegen --config codegen.ts"
+    "codegen": "dotenv -e ../../../.env.local graphql-codegen --config codegen.ts"
   },
   "main": "./index.js",
   "module": "./index.mjs",
