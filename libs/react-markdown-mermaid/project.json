@@ -1,7 +1,7 @@
 {
   "name": "react-markdown-mermaid",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "li b s/react-markdown-mermaid/src",
+  "sourceRoot": "libs/react-markdown-mermaid/src",
   "projectType": "library",
   "tags": [],
   "targets": {
