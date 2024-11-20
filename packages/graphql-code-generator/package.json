@@ -1,0 +1,28 @@
+{
+  "name": "graphql-code-generator",
+  "version": "0.0.0-semantic-release",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "codegen": "dotenv -e ../../.env.local graphql-codegen --config codegen.ts"
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhumeisongsong/multiple-products-workspace"
+  },
+  "readme": "README.md",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/client-preset": "^4.5.0",
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "@parcel/watcher": "^2.5.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv-cli": "^7.4.3",
+    "graphql": "^16.9.0"
+  }
+}
