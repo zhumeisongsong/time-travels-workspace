@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "graphql-code-generator": [
-        "libs/graphql-code-generator/src/index.ts"
+        "libs/shared/graphql-code-generator/src/index.ts"
       ]
     }
   },
