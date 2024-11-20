@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/react-markdown-mermaid-v1.2.0...react-markdown-mermaid-v1.2.1) (2024-11-20)
+
+
+### Bug Fixes
+
+* 🐛 fix typo ([42c4e9b](https://github.com/zhumeisongsong/multiple-products-workspace/commit/42c4e9b56a92a05e956d4efbe74d300951fcb9fd))
+
 # [1.2.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/react-markdown-mermaid-v1.1.0...react-markdown-mermaid-v1.2.0) (2024-10-29)
 
 
