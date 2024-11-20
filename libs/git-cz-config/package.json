@@ -9,17 +9,20 @@
     "cz",
     "config"
   ],
+  
   "private": false,
   "dependencies": {},
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhumeisongsong/multiple-products-workspace"
+    "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
+    "directory": "libs/git-cz-config"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
     "access": "public"
   },
-  "readme": "README.md"
+  "readme": "README.md",
+  "license": "MIT"
 }

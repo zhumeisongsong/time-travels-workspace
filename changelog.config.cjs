@@ -1,4 +1,4 @@
-const gitCzConfig = require('./packages/git-cz-config');
+const gitCzConfig = require('./libs/git-cz-config');
 
 module.exports = {
   ...gitCzConfig,

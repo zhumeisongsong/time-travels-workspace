@@ -7,7 +7,7 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/packages/react-markdown-mermaid',
+  cacheDir: '../../node_modules/.vite/libs/react-markdown-mermaid',
 
   plugins: [
     nxViteTsPaths(),
@@ -26,7 +26,7 @@ export default defineConfig({
   // Configuration for building your library.
   // See: https://vitejs.dev/guide/build.html#library-mode
   build: {
-    outDir: '../../dist/packages/react-markdown-mermaid',
+    outDir: '../../dist/libs/react-markdown-mermaid',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
@@ -55,7 +55,7 @@ export default defineConfig({
 
     reporters: ['default'],
     coverage: {
-      reportsDirectory: '../../coverage/packages/react-markdown-mermaid',
+      reportsDirectory: '../../coverage/libs/react-markdown-mermaid',
       provider: 'v8',
     },
   },
