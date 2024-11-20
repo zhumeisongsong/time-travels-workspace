@@ -25,10 +25,10 @@
     "@nx/devkit": "20.0.5",
     "@nx/eslint": "20.0.5",
     "@nx/eslint-plugin": "20.0.5",
-    "@nx/js": "20.0.5",
+    "@nx/js": "20.0.6",
     "@nx/playwright": "20.0.5",
     "@nx/vite": "20.0.5",
-    "@nx/web": "20.0.5",
+    "@nx/web": "20.0.6",
     "@nx/workspace": "20.0.5",
     "@playwright/test": "^1.36.0",
     "@remix-run/dev": "^2.8.1",
@@ -74,7 +74,7 @@
   "nx": {
     "includedScripts": []
   },
- "config": {
+  "config": {
     "commitizen": {
       "path": "git-cz"
     }
