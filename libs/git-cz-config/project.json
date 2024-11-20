@@ -1,13 +1,13 @@
 {
   "name": "git-cz-config",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/git-cz-config/src",
+  "sourceRoot": "libs/git-cz-config/src",
   "targets": {
     "release": {
       "executor": "nx:run-commands",
       "outputs": [],
       "options": {
-        "command": "npx semantic-release-plus --extends ./packages/git-cz-config/release.config.cjs",
+        "command": "npx semantic-release-plus --extends ./libs/git-cz-config/release.config.cjs",
         "parallel": false
       }
     }

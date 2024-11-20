@@ -16,9 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "graphql-code-generator": [
-        "packages/graphql-code-generator/src/index.ts"
-      ],
-      "react-markdown-mermaid": ["packages/react-markdown-mermaid/src/index.ts"]
+        "libs/graphql-code-generator/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
