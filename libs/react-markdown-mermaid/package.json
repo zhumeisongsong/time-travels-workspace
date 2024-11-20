@@ -7,12 +7,14 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhumeisongsong/multiple-products-workspace"
+    "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
+    "directory": "libs/react-markdown-mermaid"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
     "access": "public"
   },
-  "readme": "README.md"
+  "readme": "README.md",
+  "license": "MIT"
 }
