@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.0...git-cz-config-v1.2.1) (2024-11-21)
+
+
+### Bug Fixes
+
+* 🐛 fix can't find package.json error ([fa080a4](https://github.com/zhumeisongsong/multiple-products-workspace/commit/fa080a43e1cc1928088a33b0f5ac63c335b35fbf))
+* 🐛 path mismatch in release configuration ([31cf812](https://github.com/zhumeisongsong/multiple-products-workspace/commit/31cf812a15e5fd871b7bcda6a8dcf147dc1befd8)), closes [#69](https://github.com/zhumeisongsong/multiple-products-workspace/issues/69)
+
 # [1.2.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.1.1...git-cz-config-v1.2.0) (2024-10-30)
 
 ### Features
