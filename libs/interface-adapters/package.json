@@ -1,0 +1,12 @@
+{
+  "name": "interface-adapters",
+  "version": "0.0.1",
+  "dependencies": {
+    "graphql-code-generator": "workspace:*",
+    "urql": "^4.2.1"
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts",
+  "private": true
+}
