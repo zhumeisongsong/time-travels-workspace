@@ -1,5 +1,5 @@
 const name = 'git-cz-config';
-const srcRoot = `libs/npm-package/${name}`;
+const srcRoot = `libs/npm-packages/${name}`;
 
 module.exports = {
   extends: 'release.config.base.cjs',
