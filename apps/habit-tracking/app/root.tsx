@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 export const meta: MetaFunction = () => [
   {
@@ -14,8 +15,11 @@ export const meta: MetaFunction = () => [
   },
 ];
 
+const queryClient = new QueryClient();
+
 export default function App() {
   return (
+    <QueryClientProvider client={queryClient}>
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
@@ -30,5 +34,6 @@ export default function App() {
         <LiveReload />
       </body>
     </html>
+    </QueryClientProvider>
   );
 }
