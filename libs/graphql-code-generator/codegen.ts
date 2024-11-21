@@ -3,6 +3,7 @@ import type { CodegenConfig } from '@graphql-codegen/cli';
 const config: CodegenConfig = {
   overwrite: true, // Whether to overwrite existing files
   schema: `${process.env['GRAPHQL_API_URL'] || 'http://localhost:3333'}/graphql`, // GraphQL API endpoint URL from environment variables
+  documents: ['../interface-adapters/src/lib/**/*.ts?(x)'],
   generates: {
     './src/lib/': {
       // Output directory for generated files
