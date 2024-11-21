@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      dotenv-cli:
-        specifier: ^7.4.3
-        version: 7.4.3
       graphql:
         specifier: ^16.9.0
         version: 16.9.0
@@ -27,6 +24,9 @@ importers:
       '@parcel/watcher':
         specifier: ^2.5.0
         version: 2.5.0
+      dotenv-cli:
+        specifier: ^7.4.3
+        version: 7.4.3
       prettier:
         specifier: ^3.3.3
         version: 3.3.3

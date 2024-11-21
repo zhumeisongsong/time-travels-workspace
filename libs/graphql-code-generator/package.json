@@ -13,10 +13,10 @@
     "@graphql-codegen/client-preset": "^4.5.0",
     "@graphql-typed-document-node/core": "^3.2.0",
     "@parcel/watcher": "^2.5.0",
+    "dotenv-cli": "^7.4.3",
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "dotenv-cli": "^7.4.3",
     "graphql": "^16.9.0"
   }
 }
