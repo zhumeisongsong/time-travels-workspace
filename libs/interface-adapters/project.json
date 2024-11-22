@@ -1,8 +1,0 @@
-{
-  "name": "interface-adapters",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/interface-adapters/src",
-  "projectType": "library",
-  "tags": [],
-  "targets": {}
-}

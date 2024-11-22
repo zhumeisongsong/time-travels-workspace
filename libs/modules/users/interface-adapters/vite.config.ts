@@ -1,21 +1,12 @@
-/// <reference types='vitest' />
 import { defineConfig } from 'vite';
-import dts from 'vite-plugin-dts';
-import * as path from 'path';
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/libs/modules/users/interface-adapters',
-  plugins: [
-    nxViteTsPaths(),
-    nxCopyAssetsPlugin(['*.md']),
-    dts({
-      entryRoot: 'src',
-      tsconfigPath: path.join(__dirname, 'tsconfig.lib.json'),
-    }),
-  ],
+  cacheDir:
+    '../../../../node_modules/.vite/libs/modules/users/interface-adapters',
+  plugins: [nxViteTsPaths(), nxCopyAssetsPlugin(['*.md'])],
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
@@ -27,7 +18,8 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     reporters: ['default'],
     coverage: {
-      reportsDirectory: '../../coverage/libs/modules/users/interface-adapters',
+      reportsDirectory:
+        '../../../../coverage/libs/modules/users/interface-adapters',
       provider: 'v8',
     },
   },

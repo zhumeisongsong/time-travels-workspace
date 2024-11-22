@@ -1,8 +1,8 @@
+import { UserEntity, UsersRepository } from '@users/domain';
 import { Client } from 'urql/core';
 import { graphql } from 'graphql-code-generator';
 
-import { UserEntity, UsersRepository } from '@users/domain';
-import { mapUserDtoToUserEntity } from './users.mapper';
+import { UsersAdapter } from './users.adapter';
 
 const UserQuery = graphql(`
   query getUser($id: ID!) {
@@ -30,7 +30,6 @@ export class UsersRepositoryImpl implements UsersRepository {
     if (!result.data?.getUser) {
       return null;
     }
-
-    return mapUserDtoToUserEntity(result.data?.getUser);
+    return UsersAdapter.toUser(result.data?.getUser);
   }
 }
