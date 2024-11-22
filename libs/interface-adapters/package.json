@@ -1,10 +1,6 @@
 {
   "name": "interface-adapters",
   "version": "0.0.1",
-  "dependencies": {
-    "@users/domain":"workspace:*",
-    "graphql-code-generator": "workspace:*",
-    "urql": "^4.2.1"
-  },
+  "dependencies": {},
   "private": true
 }
