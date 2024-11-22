@@ -1,6 +1,8 @@
 {
   "name": "application-habit-tracking",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "@users/domain": "workspace:*"
+  },
   "private": true
 }
