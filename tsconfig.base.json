@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@users/domain": ["libs/modules/users/domain/src/index.ts"],
       "application-habit-tracking": [
         "libs/application-habit-tracking/src/index.ts"
       ],
