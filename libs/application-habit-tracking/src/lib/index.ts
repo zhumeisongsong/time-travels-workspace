@@ -1,0 +1,1 @@
+export const  string = 'application-habit-tracking';
