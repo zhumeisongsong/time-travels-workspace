@@ -1,6 +1,7 @@
-import { UsersAdapter } from './users.adapter';
 import { UserDto } from 'graphql-code-generator';
 import { describe, it, expect } from 'vitest';
+
+import { UsersAdapter } from './users.adapter';
 
 describe('UsersAdapter', () => {
   it('should convert UserDto to UserEntity correctly', () => {

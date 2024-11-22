@@ -6,7 +6,7 @@ export type UsersStates = {
   user: UserEntity | null;
 };
 
-const usersStates = proxy<UsersStates>({
+export const usersStates = proxy<UsersStates>({
   user: null,
 });
 
