@@ -23,7 +23,7 @@
       "application-habit-tracking": [
         "libs/application-habit-tracking/src/index.ts"
       ],
-      "graphql-code-generator": ["libs/graphql-code-generator/src/index.ts"],
+      "graphql-code-generator": ["libs/graphql-code-generator/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
