@@ -1,36 +1,46 @@
-import { describe, it, beforeEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
+import { UserEntity, UsersRepository } from '@users/domain';
 import { GetUserUseCase } from './get-user.use-case';
-import { UsersRepository } from '@users/domain';
 import { UsersService } from './users.service';
 
 describe('GetUserUseCase', () => {
   let getUserUseCase: GetUserUseCase;
-  let usersRepository: UsersRepository;
-  let usersService: UsersService;
+  let mockUsersRepository: UsersRepository;
+  let mockUsersService: UsersService;
+  let mockUser: UserEntity;
 
   beforeEach(() => {
-    usersRepository = {
-      getUser: async (id: string) => ({ id, name: 'Test User' }), // Mock implementation
+    mockUser = {
+      id: '673d671b72b5a4abd193e083',
+      name: 'Test User'
+    } as UserEntity;
+
+    mockUsersRepository = {
+      getUser: vi.fn().mockResolvedValue(mockUser)
     } as unknown as UsersRepository;
 
-    usersService = {
-      setMe: (user) => {
-        // Mock implementation
-      },
-    } as unknown as UsersService;
+    mockUsersService = {
+      setMe: vi.fn()
+    };
 
-    getUserUseCase = new GetUserUseCase(usersRepository, usersService);
+    getUserUseCase = new GetUserUseCase(mockUsersRepository, mockUsersService);
   });
 
-  it('should set the user correctly when user is found', async () => {
-    await getUserUseCase.execute();
-    // Add your expectations here based on the mocked usersService
-  });
+  describe('execute', () => {
+    it('should fetch user and set it in service', async () => {
+      await getUserUseCase.execute();
 
-  it('should not set the user when user is not found', async () => {
-    usersRepository.getUser = async (id: string) => null; // Simulate user not found
-    await getUserUseCase.execute();
-    // Add your expectations here based on the mocked usersService
+      expect(mockUsersRepository.getUser).toHaveBeenCalledWith('673d671b72b5a4abd193e083');
+      expect(mockUsersService.setMe).toHaveBeenCalledWith(mockUser);
+    });
+
+    it('should not set user if none is found', async () => {
+      mockUsersRepository.getUser = vi.fn().mockResolvedValue(null);
+      
+      await getUserUseCase.execute();
+
+      expect(mockUsersRepository.getUser).toHaveBeenCalled();
+      expect(mockUsersService.setMe).not.toHaveBeenCalled();
+    });
   });
 });
-

@@ -14,7 +14,7 @@ export class GetUserUseCase {
   }
 
   async execute(): Promise<void> {
-    // fake id, take it from localstorage
+    // fake id, will take it from localstorage
     const id = '673d671b72b5a4abd193e083';
     const user: UserEntity | null = await this.usersRepository.getUser(id);
 
