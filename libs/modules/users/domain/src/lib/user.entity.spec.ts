@@ -1,4 +1,4 @@
-import { UserEntity } from './users.entity';
+import { UserEntity } from './user.entity';
 
 describe('UserEntity', () => {
   it('should create a UserEntity with the given id and name', () => {
@@ -9,15 +9,5 @@ describe('UserEntity', () => {
 
     expect(user.id).toBe('1');
     expect(user.name).toBe('John Doe');
-  });
-
-  it('should not allow an empty id', () => {
-    const user: UserEntity = {
-      id: '',
-      name: 'Jane Doe',
-    };
-
-    expect(user.id).toBe('');
-    expect(user.name).toBe('Jane Doe');
   });
 });

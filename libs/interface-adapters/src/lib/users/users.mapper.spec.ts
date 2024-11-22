@@ -1,6 +1,7 @@
+import { UserEntity } from '@users/domain';
+
 import { mapUserDtoToUserEntity } from './users.mapper';
 import { UserDto } from 'graphql-code-generator';
-import { UserEntity } from './users.repository';
 
 describe('User Mapper', () => {
   it('should map UserDto to UserEntity correctly', () => {
