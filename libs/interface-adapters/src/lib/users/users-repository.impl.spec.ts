@@ -1,5 +1,5 @@
+import { UsersRepository, UserEntity } from '@users/domain';
 import { describe, it, expect } from 'vitest';
-import { UsersRepository, UserEntity } from './users.repository';
 
 describe('Users Repository Implementation', () => {
   let usersRepository: UsersRepository;

@@ -1,6 +1,6 @@
-import { type UserDto } from 'graphql-code-generator';
+import { UserEntity } from '@users/domain';
 
-import { UserEntity } from './users.repository';
+import { type UserDto } from 'graphql-code-generator';
 
 export const mapUserDtoToUserEntity = (userDto: UserDto): UserEntity => {
   return {
