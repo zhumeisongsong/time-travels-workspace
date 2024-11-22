@@ -14,8 +14,12 @@ jobs:
 
   lint:
     needs: setup
-    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-lint.yml@main
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-lint-run-many.yml@main
     
   type-check:
     needs: setup
-    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-type-check.yml@main
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-type-check-run-many.yml@main
+  
+  pre-build:
+    needs: [test, lint, type-check]
+    uses: zhumeisongsong/shared-actions/.github/workflows/reusable-nx-build.yml@main
