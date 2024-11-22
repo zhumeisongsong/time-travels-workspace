@@ -1,7 +1,7 @@
 import { Client } from 'urql/core';
 import { graphql } from 'graphql-code-generator';
 
-import { UserEntity, UsersRepository } from './/users.repository';
+import { UserEntity, UsersRepository } from '@users/domain';
 import { mapUserDtoToUserEntity } from './users.mapper';
 
 const UserQuery = graphql(`

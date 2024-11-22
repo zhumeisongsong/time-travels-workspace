@@ -1,1 +1,2 @@
-export * from './lib/users-domain';
+export * from './lib/users.entity';
+export * from './lib/users.repository';
