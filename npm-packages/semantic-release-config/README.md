@@ -1,4 +1,4 @@
-# @zhumeisong/semantic-release-npm-github-publish-config
+# @zhumeisong/semantic-release-config
 
 Semantic release config for publishing NPM packages to GitHub and NPM registry. This config includes:
 
@@ -11,5 +11,5 @@ Semantic release config for publishing NPM packages to GitHub and NPM registry. 
 
 ## Install
 
-Install @zhumeisong/semantic-release-npm-github-publish-config: `pnpm install @zhumeisong/semantic-release-npm-github-publish-config -D`
+Install @zhumeisong/semantic-release-config: `pnpm install @zhumeisong/semantic-release-config -D`
 

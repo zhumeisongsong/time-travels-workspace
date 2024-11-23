@@ -1,5 +1,5 @@
 {
-  "name": "@zhumeisong/semantic-release-npm-github-publish-config",
+  "name": "@zhumeisong/semantic-release-config",
   "version": "1.0.0",
   "type": "commonjs",
   "keywords": [
