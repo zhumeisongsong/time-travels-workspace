@@ -1,6 +1,6 @@
 const {
   createReleaseConfig,
-} = require('@zhumeisong/semantic-release-npm-github-publish-config');
+} = require('@zhumeisong/semantic-release-config');
 
 const name = 'git-cz-config';
 const srcRoot = `npm-packages/${name}`;
