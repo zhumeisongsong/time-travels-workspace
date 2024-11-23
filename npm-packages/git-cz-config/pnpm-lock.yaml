@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@zhumeisong/semantic-release-npm-github-publish-config':
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  '@zhumeisong/semantic-release-npm-github-publish-config@1.0.0':
+    resolution: {integrity: sha512-0KU48oQaNbCKxp8r8tQp98fnf95Om0Uk1+roGQQoTpjMgP3xFr2SXSbtJS4DxkyIa4AqvLzaSTlgsz7ELE1HsQ==}
+
+snapshots:
+
+  '@zhumeisong/semantic-release-npm-github-publish-config@1.0.0': {}

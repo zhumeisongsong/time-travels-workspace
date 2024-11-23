@@ -7,7 +7,7 @@
       "executor": "nx:run-commands",
       "outputs": [],
       "options": {
-        "command": "npx semantic-release-plus --extends ./npm-packages/git-cz-config/release.config.cjs",
+        "command": "pnpm exec semantic-release-plus --extends ./npm-packages/git-cz-config/release.config.cjs",
         "parallel": false
       }
     }

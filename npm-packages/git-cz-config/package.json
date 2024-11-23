@@ -10,8 +10,7 @@
     "config"
   ],
   "private": false,
-  "dependencies": {},
-  "main": "./index.js",
+  "main": "./index.cjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
@@ -23,5 +22,8 @@
     "access": "public"
   },
   "readme": "README.md",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@zhumeisong/semantic-release-npm-github-publish-config": "^1.0.0"
+  }
 }
