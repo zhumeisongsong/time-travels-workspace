@@ -1,4 +1,11 @@
 export const createReleaseConfig = (name, srcRoot) => {
+  if (!name || typeof name !== 'string') {
+    throw new Error('name parameter is required and must be a string');
+  }
+  if (!srcRoot || typeof srcRoot !== 'string') {
+    throw new Error('srcRoot parameter is required and must be a string');
+  }
+  
   return {
     extends: 'semantic-release-npm-github-publish',
     pkgRoot: `${srcRoot}`,
