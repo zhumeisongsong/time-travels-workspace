@@ -1,6 +1,13 @@
 # 1.0.0 (2024-11-23)
 
 
+### Features
+
+* ✨ rename to semantic-release-config ([dc95ab1](https://github.com/zhumeisongsong/multiple-products-workspace/commit/dc95ab16d87e9cdec9125199db60768c3af6b066))
+
+# 1.0.0 (2024-11-23)
+
+
 ### Bug Fixes
 
 * 🐛 Cannot find module './index' ([41cfc7d](https://github.com/zhumeisongsong/multiple-products-workspace/commit/41cfc7dd4fe0f7913e102da6c9782c0caf89e9c8))
