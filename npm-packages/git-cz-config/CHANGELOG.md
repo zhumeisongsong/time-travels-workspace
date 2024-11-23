@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.1...git-cz-config-v1.2.2) (2024-11-23)
+
+
+### Bug Fixes
+
+* 🐛 can't found config module ([4b8edbc](https://github.com/zhumeisongsong/multiple-products-workspace/commit/4b8edbca4b9b78cdf0683b7251ac90c0fbd0929b))
+
 ## [1.2.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.0...git-cz-config-v1.2.1) (2024-11-21)
 
 
