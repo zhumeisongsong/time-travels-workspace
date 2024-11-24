@@ -1,6 +1,6 @@
 import { Sprout } from 'lucide-react';
 
-export const Navigation = () => {
+export const Navigation: React.FC = () => {
   return (
     <header className="h-12 flex items-center justify-between">
       <div className="max-w-screen-lg w-full mx-auto px-4">

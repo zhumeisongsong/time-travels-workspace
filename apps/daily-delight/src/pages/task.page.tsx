@@ -5,15 +5,13 @@ import { PartyPopper, Sparkles } from 'lucide-react';
 import { PageContainer } from '../components/page-container';
 import { LoadingButton } from '../components/loading-button';
 
-export const TaskPage = () => {
+export const TaskPage: React.FC = () => {
   return (
     <PageContainer>
       <Card>
         <CardContent className="h-64">
           <div className="flex items-center h-full">
-            <div className="w-1/2">
-             
-            </div>
+            <div className="w-1/2"></div>
 
             <div className="w-1/2">
               <p className="text-lg font-semibold">
