@@ -5,7 +5,7 @@ import { AchievementsPage } from '../pages/achievements.page';
 import { LoginPage } from '../pages/login.page';
 import { AboutPage } from '../pages/about.page';
 
-export function App() {
+export const App: React.FC = () => {
   return (
     <Routes>
       <Route index element={<TaskPage />} />

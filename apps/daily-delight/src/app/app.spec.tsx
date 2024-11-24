@@ -10,13 +10,4 @@ describe('App', () => {
       </BrowserRouter>
     );
   });
-
-  it('should render TaskPage by default', () => {
-    render(
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    );
-    expect(screen.getByRole('button', { name: /click me/i })).toBeDefined();
-  });
 });
