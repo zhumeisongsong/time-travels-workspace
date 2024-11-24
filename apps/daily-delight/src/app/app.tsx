@@ -1,12 +1,17 @@
-import {
-  RouterProvider,
-  createBrowserRouter,
-} from 'react-router-dom';
+import styled from '@emotion/styled';
 
-import routes from '~react-pages';
+import { Route, Routes, Link } from 'react-router-dom';
 
-const router = createBrowserRouter(routes);
+const StyledApp = styled.div`
+  // Your style here
+`;
 
-export const App = () => {
-  return <RouterProvider router={router} />;
-};
+export function App() {
+  return (
+    <StyledApp>
+      <h1>Daily Delight</h1>
+    </StyledApp>
+  );
+}
+
+export default App;
