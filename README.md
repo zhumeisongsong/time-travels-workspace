@@ -70,6 +70,8 @@ Nx Console is an editor extension that enriches your developer experience. It le
 TS_NODE_PROJECT=tsconfig.base.json pnpm dlx shadcn@latest add xxx
 ```
 
+Thanks https://pustelto.com/blog/adding-shadcnui-to-nx-monorepo/
+
 ## Useful links
 
 Learn more:
