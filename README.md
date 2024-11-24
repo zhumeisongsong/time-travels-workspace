@@ -67,7 +67,7 @@ Nx Console is an editor extension that enriches your developer experience. It le
 ## Install shadcn/ui components
 
 ```sh
-TS_NODE_PROJECT=tsconfig.base.json pnpx shadcn@latest add xxx
+TS_NODE_PROJECT=tsconfig.base.json pnpm dlx shadcn@latest add xxx
 ```
 
 ## Useful links
