@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@shared/utils": ["libs/shared/utils/src/index.ts"],
       "@users/application": ["libs/modules/users/application/src/index.ts"],
       "@users/domain": ["libs/modules/users/domain/src/index.ts"],
       "@users/interface-adapters": [
