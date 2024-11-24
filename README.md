@@ -64,6 +64,14 @@ Nx Console is an editor extension that enriches your developer experience. It le
 
 [Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
+## Install shadcn/ui components
+
+```sh
+TS_NODE_PROJECT=tsconfig.base.json pnpm dlx shadcn@latest add xxx
+```
+
+Thanks https://pustelto.com/blog/adding-shadcnui-to-nx-monorepo/
+
 ## Useful links
 
 Learn more:

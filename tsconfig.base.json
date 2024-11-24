@@ -15,6 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@shared/ui/*": ["libs/shared/ui/src/ui/*"],
+      "@shared/ui/styles/*": ["libs/shared/ui/src/styles/*"],
       "@users/application": ["libs/modules/users/application/src/index.ts"],
       "@users/domain": ["libs/modules/users/domain/src/index.ts"],
       "@users/interface-adapters": [
