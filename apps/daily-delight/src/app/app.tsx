@@ -1,21 +1,18 @@
-import styled from '@emotion/styled';
+import { Route, Routes } from 'react-router-dom';
 
-import { Avatar, AvatarFallback, AvatarImage } from '@shared/ui/avatar';
-import { Button } from '@shared/ui/button';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { TaskPage } from '../pages/task.page';
+import { AchievementsPage } from '../pages/achievements.page';
+import { LoginPage } from '../pages/login.page';
+import { AboutPage } from '../pages/about.page';
 
 export function App() {
   return (
-    <StyledApp>
-      <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" />
-        <AvatarFallback>CN</AvatarFallback>
-      </Avatar>
-      <Button>Click me</Button>
-    </StyledApp>
+    <Routes>
+      <Route index element={<TaskPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/achievements" element={<AchievementsPage />} />
+      <Route path="/about" element={<AboutPage />} />
+    </Routes>
   );
 }
 
