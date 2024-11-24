@@ -1,3 +1,5 @@
+import { PageContainer } from "../components/page-container";
+
 export const AchievementsPage = () => {
-  return <div>AchievementsPage</div>;
+  return <PageContainer>AchievementsPage</PageContainer>;
 };

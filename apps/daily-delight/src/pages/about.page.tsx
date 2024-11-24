@@ -1,3 +1,5 @@
+import { PageContainer } from "../components/page-container";
+
 export const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return <PageContainer>AboutPage</PageContainer>;
 }
