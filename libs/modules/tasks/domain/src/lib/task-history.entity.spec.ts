@@ -8,8 +8,8 @@ describe('TaskHistoryEntity', () => {
       id: '123',
       taskId: '456',
       userId: '789',
-      createdAt: '2023-01-01T00:00:00Z',
-      completedAt: '2023-01-01T01:00:00Z',
+      createdAt: new Date('2023-01-01T00:00:00Z'),
+      completedAt: new Date('2023-01-01T01:00:00Z'),
     };
 
     expect(taskHistory.id).toBe('123');
@@ -38,8 +38,8 @@ describe('TaskHistoryEntity', () => {
       task,
       userId: '789',
       user,
-      createdAt: '2023-01-01T00:00:00Z',
-      completedAt: '2023-01-01T01:00:00Z',
+      createdAt: new Date('2023-01-01T00:00:00Z'),
+      completedAt: new Date('2023-01-01T01:00:00Z'),
     };
 
     expect(taskHistory.task).toBeDefined();

@@ -16,7 +16,7 @@ export type TaskHistoryEntity = {
   userId: string;
   user?: UserEntity;
   /** Timestamp of when the task was created */
-  createdAt: string;
+  createdAt: Date;
   /** Timestamp of when the task was completed */
-  completedAt?: string;
+  completedAt?: Date;
 };
