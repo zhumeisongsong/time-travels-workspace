@@ -9,5 +9,5 @@ export type TaskHistoryEntity = {
   userId: string;
   user?: UserEntity;
   createdAt: string;
-  completedAt: string;
+  completedAt?: string;
 };
