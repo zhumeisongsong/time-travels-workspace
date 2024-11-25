@@ -1,4 +1,4 @@
-import { TaskRepository } from '@tasks/domain';
+import { TaskHistoryEntity, TaskRepository } from '@tasks/domain';
 import { TasksService } from './tasks.service';
 
 export class CompleteTaskUseCase {
@@ -11,10 +11,11 @@ export class CompleteTaskUseCase {
   }
 
   async execute(taskHistoryId: string): Promise<void> {
-    const taskHistory = await this.tasksRepository.updateTaskHistory({
-      isCompleted: true,
-      taskHistoryId,
-    });
+    const taskHistory: TaskHistoryEntity | null =
+      await this.tasksRepository.updateTaskHistory({
+        isCompleted: true,
+        taskHistoryId,
+      });
 
     if (taskHistory) {
       this.tasksService.setTask(taskHistory);

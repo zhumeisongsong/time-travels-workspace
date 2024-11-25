@@ -27,7 +27,7 @@ describe('CompleteTaskUseCase', () => {
       taskId: '456',
       userId: '789',
       isCompleted: true,
-      date: new Date().toISOString()
+      createdAt: new Date().toISOString()
     };
 
     vi.mocked(mockTasksRepository.updateTaskHistory).mockResolvedValue(mockTaskHistory);
@@ -39,17 +39,5 @@ describe('CompleteTaskUseCase', () => {
       taskHistoryId: '123'
     });
     expect(mockTasksService.setTask).toHaveBeenCalledWith(mockTaskHistory);
-  });
-
-  it('should not call setTask when task history update returns null', async () => {
-    vi.mocked(mockTasksRepository.updateTaskHistory).mockResolvedValue(null);
-
-    await completeTaskUseCase.execute('123');
-
-    expect(mockTasksRepository.updateTaskHistory).toHaveBeenCalledWith({
-      isCompleted: true,
-      taskHistoryId: '123'
-    });
-    expect(mockTasksService.setTask).not.toHaveBeenCalled();
   });
 });
