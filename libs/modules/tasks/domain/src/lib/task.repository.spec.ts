@@ -28,7 +28,7 @@ describe('TaskRepository', () => {
       id: '123',
       taskId: '456',
       userId: '789',
-      createdAt: '2023-01-01T00:00:00Z',
+      createdAt: new Date('2023-01-01T00:00:00Z'),
     };
 
     const repository: TaskRepository = {
@@ -49,8 +49,8 @@ describe('TaskRepository', () => {
       id: '123',
       taskId: '456',
       userId: '789',
-      createdAt: '2023-01-01T00:00:00Z',
-      completedAt: '2023-01-01T01:00:00Z'
+      createdAt: new Date('2023-01-01T00:00:00Z'),
+      completedAt: new Date('2023-01-01T01:00:00Z')
     };
 
     const repository: TaskRepository = {
@@ -61,7 +61,7 @@ describe('TaskRepository', () => {
 
     const result = await repository.updateTaskHistory({
       taskHistoryId: '123',
-      isCompleted: 'true'
+      isCompleted: true
     });
     expect(result).toEqual(mockTaskHistory);
   });
