@@ -11,8 +11,15 @@ interface UpdateTaskHistoryDto {
   isCompleted: boolean;
 }
 
+interface TaskHistoryFilter {
+  id?: string;
+  date?: string;
+  userId?: string;
+}
+
 export interface TaskRepository {
   getRandomTask(): Promise<TaskEntity | null>;
+  getTaskHistory(filter: TaskHistoryFilter): Promise<TaskHistoryEntity | null>;
   createTaskHistory(
     createTaskDto: CreateTaskHistoryDto,
   ): Promise<TaskHistoryEntity | null>;
