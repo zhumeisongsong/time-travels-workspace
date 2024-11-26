@@ -3,7 +3,7 @@
 Semantic release config for publishing NPM packages to GitHub and NPM registry. This config includes:
 
 - Commit analyzer
-- Release notes generator 
+- Release notes generator
 - Changelog generation
 - NPM publishing
 - GitHub release
@@ -30,8 +30,13 @@ const {
   createReleaseConfig,
 } = require('@zhumeisong/semantic-release-config');
 
-const name = '[your-package-name]'; // e.g. `git-cz-config`
 const srcRoot = `[your-package-path]`; // e.g. `npm-packages/git-cz-config`
+const name = 'your-package-name'; // Default is empty string, you can set it to your package name
+const branch = 'your-branch-name'; // Default is `main`, you can change it to `master` or other branch names
 
-module.exports = createReleaseConfig(name, srcRoot);
+module.exports = createReleaseConfig({
+  name,
+  srcRoot,
+  branch,
+});
 ```
