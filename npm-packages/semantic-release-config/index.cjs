@@ -29,7 +29,7 @@ module.exports.createReleaseConfig = ({
         {
           assets: [`${srcRoot}/package.json`, `${srcRoot}/CHANGELOG.md`],
           message:
-            `release(version): Release ${name ? `${name} ` : ''} ` +
+            `release(version): Release ${name ? `${name} ` : ''}` +
             '${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
         },
       ],
