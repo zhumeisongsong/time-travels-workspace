@@ -1,5 +1,5 @@
 module.exports.createReleaseConfig = ({
-  srcRoot,
+  srcRoot = './',
   name = '',
   branch = 'main',
 }) => {

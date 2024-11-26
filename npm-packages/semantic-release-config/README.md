@@ -30,9 +30,9 @@ const {
   createReleaseConfig,
 } = require('@zhumeisong/semantic-release-config');
 
-const srcRoot = `[your-package-path]`; // e.g. `npm-packages/git-cz-config`
-const name = 'your-package-name'; // Default is empty string, you can set it to your package name
-const branch = 'your-branch-name'; // Default is `main`, you can change it to `master` or other branch names
+const srcRoot = './'; // Default is current directory, you can set it to your package path, e.g. `./npm-packages/git-cz-config`
+const name = ''; // Default is empty string, you can set it to your package name
+const branch = 'main'; // Default is `main`, you can change it to `master` or other branch names
 
 module.exports = createReleaseConfig({
   name,
