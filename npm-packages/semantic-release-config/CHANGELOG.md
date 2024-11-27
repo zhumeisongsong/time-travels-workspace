@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.0...semantic-release-config-v1.2.1) (2024-11-27)
+
+
+### Bug Fixes
+
+* 🐛 fix docs of creating a release.config.cjs ([3ff7fe2](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3ff7fe22b4d0d75882df89d77c88d21d3be45e8e))
+
 # [1.2.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.1.0...semantic-release-config-v1.2.0) (2024-11-27)
 
 

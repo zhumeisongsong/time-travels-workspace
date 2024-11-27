@@ -1,6 +1,6 @@
 {
   "name": "@zhumeisong/semantic-release-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "commonjs",
   "keywords": [
     "semantic-release",
