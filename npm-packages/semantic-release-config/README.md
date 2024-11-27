@@ -30,13 +30,42 @@ const {
   createReleaseConfig,
 } = require('@zhumeisong/semantic-release-config');
 
-const srcRoot = './'; // Default is current directory, you can set it to your package path, e.g. `./npm-packages/git-cz-config`
-const name = ''; // Default is empty string, you can set it to your package name
-const branch = 'main'; // Default is `main`, you can change it to `master` or other branch names
+// srcRoot: string
+// - Default: './'
+// - The root directory containing your package.json
+// - Examples:
+//   - './' - Current directory
+//   - './npm-packages/git-cz-config' - Nested package directory
+
+const srcRoot = './';
+
+// name: string
+// - Default: ''
+// - The name of your package
+// - Used in tag format and release message
+// - Examples:
+//   - '' - No prefix
+//   - 'git-cz-config' - Will create tags like 'git-cz-config-v1.0.0'
+
+const name = '';
+
+// branches: { name: string }[]
+// - Default: [{ name: 'main' }]
+// - The branches you want to release
+// - Used in tag format and release message
+// - Examples:
+//   - [{ name: 'main' }] - Only release from `main` branch
+//   - [{ name: 'main' }, { name: 'dev' }] - Release from `main` and `dev` branches
+
+const branches = [
+  {
+    name: 'main',
+  },
+];
 
 module.exports = createReleaseConfig({
   name,
   srcRoot,
-  branch,
+  branches,
 });
 ```
