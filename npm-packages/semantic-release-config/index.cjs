@@ -1,7 +1,11 @@
 module.exports.createReleaseConfig = ({
   srcRoot = './',
   name = '',
-  branch = 'main',
+  branches = [
+    {
+      name: 'main',
+    },
+  ],
 }) => {
   if (!srcRoot || typeof srcRoot !== 'string') {
     throw new Error('srcRoot parameter is required and must be a string');
@@ -12,7 +16,7 @@ module.exports.createReleaseConfig = ({
     pkgRoot: srcRoot,
     tagFormat: name ? `${name}-v\${version}` : `${version}`,
     commitPaths: [`${srcRoot}/*`],
-    branch: branch,
+    branches: branches,
     plugins: [
       '@semantic-release/commit-analyzer',
       '@semantic-release/release-notes-generator',
