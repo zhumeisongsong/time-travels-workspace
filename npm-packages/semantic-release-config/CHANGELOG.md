@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.1...semantic-release-config-v1.2.2) (2024-11-27)
+
+
+### Bug Fixes
+
+* 🐛 version is not defined ([6dbeace](https://github.com/zhumeisongsong/multiple-products-workspace/commit/6dbeace66ef8f1b577dec2647dcc91c963b16755))
+
 ## [1.2.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.0...semantic-release-config-v1.2.1) (2024-11-27)
 
 
