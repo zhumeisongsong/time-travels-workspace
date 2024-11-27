@@ -24,6 +24,6 @@
   "readme": "README.md",
   "license": "MIT",
   "devDependencies": {
-    "@zhumeisong/semantic-release-config": "^1.0.0"
+    "@zhumeisong/semantic-release-config": "^1.2.0"
   }
 }
