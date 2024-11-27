@@ -28,7 +28,7 @@ module.exports.createReleaseConfig = ({
   return {
     extends: 'semantic-release-npm-github-publish',
     pkgRoot: srcRoot,
-    tagFormat: name ? `${name}-v\${version}` : `${version}`,
+    tagFormat: name ? `${name}-v\${version}` : `v\${version}`,
     commitPaths: [`${srcRoot}/*`],
     branches: branches,
     plugins: [
