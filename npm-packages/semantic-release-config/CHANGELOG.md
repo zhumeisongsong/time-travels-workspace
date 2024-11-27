@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.0.0...semantic-release-config-v1.1.0) (2024-11-27)
+
+
+### Bug Fixes
+
+* 🐛 updated to use the new object parameter syntax ([72f31e6](https://github.com/zhumeisongsong/multiple-products-workspace/commit/72f31e686d7ba9c8a03cdb563be77c7c931ec4ba))
+
+
+### Features
+
+* ✨ add branch and name as optional args of config ([b973098](https://github.com/zhumeisongsong/multiple-products-workspace/commit/b9730985e86048d2eb45dd5ba9d4f1e8ed8a7191))
+* ✨ edit space ([e70e3b8](https://github.com/zhumeisongsong/multiple-products-workspace/commit/e70e3b8dced7cbc79eda815961b2539b68daf5e2))
+* ✨ update default args' values ([ee9900d](https://github.com/zhumeisongsong/multiple-products-workspace/commit/ee9900d7f7191ab98cd74fe853b7c3bfe5f9c864))
+
 # 1.0.0 (2024-11-23)
 
 
