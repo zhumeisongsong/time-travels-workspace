@@ -169,8 +169,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.1
       '@zhumeisong/semantic-release-config':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.2.0
+        version: 1.2.0
       autoprefixer:
         specifier: 10.4.13
         version: 10.4.13(postcss@8.4.38)
@@ -3126,8 +3126,8 @@ packages:
   '@zhumeisong/git-cz-config@1.2.1':
     resolution: {integrity: sha512-ne0RgJzc55xmGR+NM8+T5/lWrZWRDkcYU9Zx5gOLmv+NziAX13KMsCgLZ2QTDk542JMd0cd9LD1spnZKXvupoQ==}
 
-  '@zhumeisong/semantic-release-config@1.0.0':
-    resolution: {integrity: sha512-Lv0bcYYaaNLz3C+NCfxH0x5KTSX1RfSItwF/f6XKavUsXCZCPjLA96Hmui0FBgI05YkcgJ+fbjyEBHIrpYzwzA==}
+  '@zhumeisong/semantic-release-config@1.2.0':
+    resolution: {integrity: sha512-OU1FVF4fVnSfY60ClJ669v6Qc/VMLxb04QewoywPCCZuupLDhz37tNz+SrhFAf12O+9nTv+9GXW3uqdkuMLGhg==}
 
   '@zkochan/js-yaml@0.0.7':
     resolution: {integrity: sha512-nrUSn7hzt7J6JWgWGz78ZYI8wj+gdIJdk0Ynjpp8l+trkn58Uqsf6RYrYkEK+3X18EX+TNdtJI0WxAtc+L84SQ==}
@@ -13373,7 +13373,7 @@ snapshots:
 
   '@zhumeisong/git-cz-config@1.2.1': {}
 
-  '@zhumeisong/semantic-release-config@1.0.0': {}
+  '@zhumeisong/semantic-release-config@1.2.0': {}
 
   '@zkochan/js-yaml@0.0.7':
     dependencies:
