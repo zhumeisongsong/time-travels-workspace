@@ -11,6 +11,20 @@ module.exports.createReleaseConfig = ({
     throw new Error('srcRoot parameter is required and must be a string');
   }
 
+  if (typeof name !== 'string') {
+    throw new Error('name parameter must be a string');
+  }
+
+  if (
+    !Array.isArray(branches) ||
+    !branches.length ||
+    !branches.every((b) => b.name && typeof b.name === 'string')
+  ) {
+    throw new Error(
+      'branches parameter must be a non-empty array of objects with name property',
+    );
+  }
+
   return {
     extends: 'semantic-release-npm-github-publish',
     pkgRoot: srcRoot,
