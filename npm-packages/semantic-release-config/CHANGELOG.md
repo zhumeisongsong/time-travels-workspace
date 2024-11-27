@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.1.0...semantic-release-config-v1.2.0) (2024-11-27)
+
+
+### Bug Fixes
+
+* 🐛 name parameter is required and must be a string ([e73c5be](https://github.com/zhumeisongsong/multiple-products-workspace/commit/e73c5be21bfa1cefec7133af3d5b618a81ce5738))
+
+
+### Features
+
+* ✨ Add validation for name and branches parameters ([5f4d275](https://github.com/zhumeisongsong/multiple-products-workspace/commit/5f4d2752be0a2dbaeb42e50f797374fba8a251b7))
+
 # [1.1.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.0.0...semantic-release-config-v1.1.0) (2024-11-27)
 
 
