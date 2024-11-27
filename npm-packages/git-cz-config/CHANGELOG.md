@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.2...git-cz-config-v1.2.3) (2024-11-27)
+
+
+### Bug Fixes
+
+* 🐛 updated to use the new object parameter syntax ([72f31e6](https://github.com/zhumeisongsong/multiple-products-workspace/commit/72f31e686d7ba9c8a03cdb563be77c7c931ec4ba))
+
 ## [1.2.2](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.1...git-cz-config-v1.2.2) (2024-11-23)
 
 
