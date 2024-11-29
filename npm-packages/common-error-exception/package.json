@@ -23,5 +23,8 @@
     "access": "public"
   },
   "readme": "README.md",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@zhumeisong/semantic-release-config": "^1.2.0"
+  }
 }
