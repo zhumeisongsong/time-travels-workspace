@@ -8,13 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@zhumeisong/semantic-release-config':
+        specifier: ^1.2.2
+        version: 1.2.2
       http-status-codes:
         specifier: ^2.3.0
         version: 2.3.0
-    devDependencies:
-      '@zhumeisong/semantic-release-config':
-        specifier: ^1.2.0
-        version: 1.2.2
 
 packages:
 

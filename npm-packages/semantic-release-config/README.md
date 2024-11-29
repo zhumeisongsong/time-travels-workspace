@@ -21,7 +21,7 @@ If you are using semantic-release-plus, you can install the following packages:
 
 2. Install @zhumeisong/semantic-release-config:
 
-`pnpm install @zhumeisong/semantic-release-config -D`
+`pnpm install @zhumeisong/semantic-release-config`
 
 3. Create a `release.config.cjs` file in your project root and add:
 

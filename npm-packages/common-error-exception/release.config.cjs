@@ -1,4 +1,4 @@
-const { createReleaseConfig } = require('./index.cjs');
+const { createReleaseConfig } = require('@zhumeisong/semantic-release-config');
 
 const name = 'common-error-exception';
 const srcRoot = `npm-packages/${name}`;

@@ -41,6 +41,9 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.1.4
         version: 1.1.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@zhumeisong/semantic-release-config':
+        specifier: ^1.2.2
+        version: 1.2.2
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -171,9 +174,6 @@ importers:
       '@zhumeisong/git-cz-config':
         specifier: ^1.2.0
         version: 1.2.3
-      '@zhumeisong/semantic-release-config':
-        specifier: ^1.2.0
-        version: 1.2.2
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.49)
