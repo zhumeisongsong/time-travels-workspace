@@ -1,0 +1,27 @@
+{
+  "name": "@zhumeisong/common-error-exception",
+  "version": "0.0.0-semantic-release",
+  "keywords": [
+    "error-codes",
+    "error-messages"
+  ],
+  "private": false,
+  "dependencies": {
+    "http-status-codes": "^2.3.0"
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
+    "directory": "npm-packages/common-error-exception"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  },
+  "readme": "README.md",
+  "license": "MIT"
+}
