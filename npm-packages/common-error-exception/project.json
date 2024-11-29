@@ -1,0 +1,17 @@
+{
+  "name": "@zhumeisong/common-error-exception",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "npm-packages/common-error-exception/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "release": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "pnpm exec semantic-release-plus --extends ./npm-packages/common-error-exception/release.config.cjs",
+        "parallel": false
+      }
+    }
+  }
+}
