@@ -1,6 +1,6 @@
 {
   "name": "@zhumeisong/common-error-exception",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.0",
   "keywords": [
     "error-codes",
     "error-messages"
