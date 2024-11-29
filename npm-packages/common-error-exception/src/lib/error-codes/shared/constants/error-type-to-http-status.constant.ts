@@ -30,5 +30,6 @@ export const errorTypeToHttpStatus: Record<
   SIZE_MAX_EXCEEDED: { httpStatus: StatusCodes.BAD_REQUEST },
   SIZE_MIN_LESS_THAN_ZERO: { httpStatus: StatusCodes.BAD_REQUEST },
   LENGTH_MAX_EXCEEDED: { httpStatus: StatusCodes.BAD_REQUEST },
+  LENGTH_MIN_EXCEEDED: { httpStatus: StatusCodes.BAD_REQUEST },
   PARSE_EXCEPTION: { httpStatus: StatusCodes.BAD_REQUEST },
 };
