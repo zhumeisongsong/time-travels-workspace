@@ -17,13 +17,10 @@ export const errorTypeToHttpStatus: Record<
   ErrorType,
   { httpStatus: StatusCodes }
 > = {
-  // application error
   UNAUTHORIZED: { httpStatus: StatusCodes.UNAUTHORIZED },
-  NOT_ALLOWED_REQUEST: { httpStatus: StatusCodes.BAD_REQUEST },
-  // entity error
   DUPLICATED: { httpStatus: StatusCodes.CONFLICT },
   NOT_FOUND: { httpStatus: StatusCodes.NOT_FOUND },
-  // attribute error
+  NOT_ALLOWED_REQUEST: { httpStatus: StatusCodes.BAD_REQUEST },
   REQUIRED: { httpStatus: StatusCodes.BAD_REQUEST },
   INVALID_FORMAT: { httpStatus: StatusCodes.BAD_REQUEST },
   INVALID_VALUE: { httpStatus: StatusCodes.BAD_REQUEST },
@@ -32,4 +29,5 @@ export const errorTypeToHttpStatus: Record<
   LENGTH_MAX_EXCEEDED: { httpStatus: StatusCodes.BAD_REQUEST },
   LENGTH_MIN_EXCEEDED: { httpStatus: StatusCodes.BAD_REQUEST },
   PARSE_EXCEPTION: { httpStatus: StatusCodes.BAD_REQUEST },
+  TOKEN_REFRESH_FAILED: { httpStatus: StatusCodes.INTERNAL_SERVER_ERROR },
 };

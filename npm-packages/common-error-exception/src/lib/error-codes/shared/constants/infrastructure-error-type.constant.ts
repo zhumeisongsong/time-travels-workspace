@@ -4,6 +4,7 @@ export const infrastructureErrorType = {
   SIZE_MIN_LESS_THAN_ZERO: 'SIZE_MIN_LESS_THAN_ZERO',
   LENGTH_MAX_EXCEEDED: 'LENGTH_MAX_EXCEEDED',
   PARSE_EXCEPTION: 'PARSE_EXCEPTION',
+  TOKEN_REFRESH_FAILED: 'TOKEN_REFRESH_FAILED',
 } as const satisfies { [key: string]: string };
 
 export type InfrastructureErrorType =
