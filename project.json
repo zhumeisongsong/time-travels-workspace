@@ -1,5 +1,5 @@
 {
-  "name": "@time-travels-workspace/source",
+  "name": "@multiple-products-workspace/source",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {}
 }
