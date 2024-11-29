@@ -14,7 +14,8 @@ const attribute = {
 } as const satisfies EntityAttribute;
 
 export const userError = {
-  USER_NOT_FOUND: generateEntityErrorObject(region, entityErrorType.NOT_FOUND),
+  NOT_FOUND: generateEntityErrorObject(region, entityErrorType.NOT_FOUND),
+  DUPLICATED: generateEntityErrorObject(region, entityErrorType.DUPLICATED),
 };
 
 export const userAttributeError = {
