@@ -2,7 +2,7 @@ import { ErrorObject } from '../error-object.type';
 import { errorTypeToHttpStatus } from '../constants/error-type-to-http-status.constant';
 import { EntityErrorType, EntityAttributeErrorType } from '../constants/entity-error-type.constant';
 
-export const generateDomainErrorObject = (
+export const generateEntityErrorObject = (
   region: string,
   errorType: EntityErrorType | EntityAttributeErrorType,
   attribute?: string,

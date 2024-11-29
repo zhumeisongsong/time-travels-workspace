@@ -7,9 +7,6 @@ export const generateInfrastructureErrorObject = (
   errorType: InfrastructureErrorType,
   attribute?: string,
 ): ErrorObject => ({
-  errorCode:
-    attribute === undefined
-      ? `E_${region}_${errorType}`
-      : `E_${region}_${attribute}_${errorType}`,
+  errorCode: `E_${region}_${attribute || 'RESOURCE'}_${errorType}`,
   httpStatus: errorTypeToHttpStatus[errorType].httpStatus,
 });
