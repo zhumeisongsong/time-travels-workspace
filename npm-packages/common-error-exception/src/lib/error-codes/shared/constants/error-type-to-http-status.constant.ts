@@ -1,8 +1,10 @@
 import { StatusCodes } from 'http-status-codes';
 
 import { ApplicationErrorType } from './application-error-type.constant';
-import { EntityErrorType } from './entity-error-type.constant';
-import { EntityAttributeErrorType } from './entity-attribute-error-type.constant';
+import {
+  EntityErrorType,
+  EntityAttributeErrorType,
+} from './entity-error-type.constant';
 import { InfrastructureErrorType } from './infrastructure-error-type.constant';
 
 export type ErrorType =
