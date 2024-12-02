@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.5",
-    "@emotion/styled": "11.11.0",
+    "@emotion/styled": "11.13.5",
     "@radix-ui/react-aspect-ratio": "^1.1.0",
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-checkbox": "^1.1.2",
@@ -28,7 +28,7 @@
     "clsx": "^2.1.1",
     "http-status-codes": "^2.3.0",
     "isbot": "^5.0.0",
-    "lucide-react": "^0.460.0",
+    "lucide-react": "^0.462.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "7.0.1",
