@@ -5,6 +5,13 @@
 
 * 🐛 lint error by moving packgae from devdeps to deps ([3676b63](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3676b63f3c2c3414779444e1dd2a15d1f9f8a3c1))
 
+## [1.2.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.2...semantic-release-config-v1.2.3) (2024-12-09)
+
+
+### Bug Fixes
+
+* 🐛 lint error by moving packgae from devdeps to deps ([3676b63](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3676b63f3c2c3414779444e1dd2a15d1f9f8a3c1))
+
 ## [1.2.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.2...semantic-release-config-v1.2.3) (2024-12-02)
 
 
