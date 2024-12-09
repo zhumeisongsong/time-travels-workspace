@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@zhumeisong/semantic-release-config':
         specifier: ^1.2.2
-        version: 1.2.2
+        version: 1.2.3
 
 packages:
 
-  '@zhumeisong/semantic-release-config@1.2.2':
-    resolution: {integrity: sha512-+2viHE7Mh46ehxZhuk/McULedu0tEhO9GhM9LssBdhwCWQcfPUXYcAhVPYeGK1Bn44xmxoRiiL+pIpMeeJKP2Q==}
+  '@zhumeisong/semantic-release-config@1.2.3':
+    resolution: {integrity: sha512-9T21aQA2Lvz7VEOldrPGJNnPx9H+x4qYP7JDNIBM1FnmbeYIoMO0273IoedIy3oZXRbJWHHjhir+r2ig7oVgtQ==}
 
 snapshots:
 
-  '@zhumeisong/semantic-release-config@1.2.2': {}
+  '@zhumeisong/semantic-release-config@1.2.3': {}
