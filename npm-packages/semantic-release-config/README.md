@@ -36,6 +36,7 @@ const {
 // - Examples:
 //   - './' - Current directory
 //   - './npm-packages/git-cz-config' - Nested package directory
+//   - './dist/npm-packages/git-cz-config' - build directory
 
 const srcRoot = './';
 
