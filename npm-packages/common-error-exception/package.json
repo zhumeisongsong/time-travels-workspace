@@ -1,6 +1,6 @@
 {
   "name": "@zhumeisong/common-error-exception",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "error-codes",
     "error-messages"
