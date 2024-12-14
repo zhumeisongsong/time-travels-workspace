@@ -5,6 +5,13 @@
 
 * 🐛 test release packages ([871a581](https://github.com/zhumeisongsong/multiple-products-workspace/commit/871a581bac2fff6ce894507d5955211c6fc30014))
 
+## [1.2.5](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.4...git-cz-config-v1.2.5) (2024-12-14)
+
+
+### Bug Fixes
+
+* 🐛 test release packages ([871a581](https://github.com/zhumeisongsong/multiple-products-workspace/commit/871a581bac2fff6ce894507d5955211c6fc30014))
+
 ## [1.2.4](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.3...git-cz-config-v1.2.4) (2024-11-29)
 
 
