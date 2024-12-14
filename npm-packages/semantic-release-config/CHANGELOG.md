@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.2...semantic-release-config-v1.2.3) (2024-12-14)
+
+
+### Bug Fixes
+
+* 🐛 fix 1.2.3 tag is existed error ([f8f8f3c](https://github.com/zhumeisongsong/multiple-products-workspace/commit/f8f8f3c5c19c57d578fd65f119b5c1c547d85d1d))
+* 🐛 lint error by moving packgae from devdeps to deps ([3676b63](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3676b63f3c2c3414779444e1dd2a15d1f9f8a3c1))
+* 🐛 test to deprecate semantic-release-config 1.2.3 ([696d95c](https://github.com/zhumeisongsong/multiple-products-workspace/commit/696d95ca476a7b3fa4c8fba74a2b1996ab7f823f))
+
 ### Bug Fixes
 
 * 🐛 lint error by moving packgae from devdeps to deps ([3676b63](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3676b63f3c2c3414779444e1dd2a15d1f9f8a3c1))
