@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.3.0...git-cz-config-v1.4.0) (2024-12-15)
+
+
+### Features
+
+* ✨ update readme ([f77be4e](https://github.com/zhumeisongsong/multiple-products-workspace/commit/f77be4edd361047958e2b2ee17e8ec7ad6060bd8))
+
 # [1.3.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.4...git-cz-config-v1.3.0) (2024-12-15)
 
 
