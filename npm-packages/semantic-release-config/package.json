@@ -4,10 +4,8 @@
   "type": "commonjs",
   "keywords": [
     "semantic-release",
-    "semantic-release-plus",
-    "cz-config",
-    "cz",
-    "config"
+    "monorepo",
+    "monolithic"
   ],
   "private": false,
   "dependencies": {},
