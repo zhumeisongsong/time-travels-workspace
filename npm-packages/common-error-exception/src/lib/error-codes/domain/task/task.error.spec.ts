@@ -7,13 +7,6 @@ describe('taskError', () => {
       httpStatus: 404
     });
   });
-
-  it('should have DUPLICATED error', () => {
-    expect(taskError.DUPLICATED).toEqual({
-      errorCode: 'E_TASK_RESOURCE_DUPLICATED',
-      httpStatus: 409
-    });
-  });
 });
 
 describe('taskAttributeError', () => {
@@ -27,7 +20,7 @@ describe('taskAttributeError', () => {
 
     it('should have MAX_LENGTH_EXCEEDED error', () => {
       expect(taskAttributeError.TITLE.MAX_LENGTH_EXCEEDED).toEqual({
-        errorCode: 'E_TASK_TITLE_LENGTH_MAX_EXCEEDED',
+        errorCode: 'E_TASK_TITLE_MAX_LENGTH_EXCEEDED',
         httpStatus: 400
       });
     });
@@ -36,7 +29,7 @@ describe('taskAttributeError', () => {
   describe('DESCRIPTION', () => {
     it('should have MAX_LENGTH_EXCEEDED error', () => {
       expect(taskAttributeError.DESCRIPTION.MAX_LENGTH_EXCEEDED).toEqual({
-        errorCode: 'E_TASK_DESCRIPTION_LENGTH_MAX_EXCEEDED',
+        errorCode: 'E_TASK_DESCRIPTION_MAX_LENGTH_EXCEEDED',
         httpStatus: 400
       });
     });

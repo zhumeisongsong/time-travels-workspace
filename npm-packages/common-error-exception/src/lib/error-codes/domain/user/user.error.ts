@@ -15,7 +15,6 @@ const attribute = {
 
 export const userError = {
   NOT_FOUND: generateEntityErrorObject(region, entityErrorType.NOT_FOUND),
-  DUPLICATED: generateEntityErrorObject(region, entityErrorType.DUPLICATED),
 };
 
 export const userAttributeError = {
@@ -32,7 +31,7 @@ export const userAttributeError = {
     ),
     MAX_LENGTH_EXCEEDED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MAX_EXCEEDED,
+      entityAttributeErrorType.MAX_LENGTH_EXCEEDED  ,
       attribute.EMAIL,
     ),
   },
@@ -42,23 +41,23 @@ export const userAttributeError = {
       entityAttributeErrorType.REQUIRED,
       attribute.PASSWORD,
     ),
-    MIN_LENGTH_EXCEEDED: generateEntityErrorObject(
+    MIN_LENGTH_NOT_REACHED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MIN_EXCEEDED,
+      entityAttributeErrorType.MIN_LENGTH_NOT_REACHED,
       attribute.PASSWORD,
     ),
   },
   FIRST_NAME: {
     MAX_LENGTH_EXCEEDED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MAX_EXCEEDED,
+      entityAttributeErrorType.MAX_LENGTH_EXCEEDED,
       attribute.FIRST_NAME,
     ),
   },
   LAST_NAME: {
     MAX_LENGTH_EXCEEDED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MAX_EXCEEDED,
+      entityAttributeErrorType.MAX_LENGTH_EXCEEDED,
       attribute.LAST_NAME,
     ),
   },

@@ -10,7 +10,6 @@ const attribute = {
 
 export const taskError = {
   NOT_FOUND: generateEntityErrorObject(region, entityErrorType.NOT_FOUND),
-  DUPLICATED: generateEntityErrorObject(region, entityErrorType.DUPLICATED),
 };
 
 export const taskAttributeError = {
@@ -22,14 +21,14 @@ export const taskAttributeError = {
     ),
     MAX_LENGTH_EXCEEDED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MAX_EXCEEDED,
+      entityAttributeErrorType.MAX_LENGTH_EXCEEDED,
       attribute.TITLE,
     ),
   },
   DESCRIPTION: {
     MAX_LENGTH_EXCEEDED: generateEntityErrorObject(
       region,
-      entityAttributeErrorType.LENGTH_MAX_EXCEEDED,
+      entityAttributeErrorType.MAX_LENGTH_EXCEEDED,
       attribute.DESCRIPTION,
     ),
   }

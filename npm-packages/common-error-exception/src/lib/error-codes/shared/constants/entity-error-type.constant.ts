@@ -10,8 +10,8 @@ export const entityAttributeErrorType = {
   REQUIRED: 'REQUIRED',
   INVALID_FORMAT: 'INVALID_FORMAT',
   INVALID_VALUE: 'INVALID_VALUE',
-  LENGTH_MAX_EXCEEDED: 'LENGTH_MAX_EXCEEDED',
-  LENGTH_MIN_EXCEEDED: 'LENGTH_MIN_EXCEEDED',
+  MAX_LENGTH_EXCEEDED: 'MAX_LENGTH_EXCEEDED',
+  MIN_LENGTH_NOT_REACHED: 'MIN_LENGTH_NOT_REACHED',
 } as const satisfies { [key: string]: string };
 
 export type EntityAttributeErrorType =
