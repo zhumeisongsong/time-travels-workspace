@@ -5,7 +5,7 @@
     "error-codes",
     "error-messages"
   ],
-  "private": false,
+  "private": true,
   "dependencies": {
     "@zhumeisong/semantic-release-config": "^1.2.2",
     "http-status-codes": "^2.3.0"

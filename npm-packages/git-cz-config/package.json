@@ -9,7 +9,7 @@
     "cz",
     "config"
   ],
-  "private": false,
+  "private": true,
   "main": "./index.cjs",
   "repository": {
     "type": "git",
