@@ -32,6 +32,7 @@ const {
 
 const name = '';
 const srcRoot = './';
+const pkgRoot = 'dist/';
 const branches = [
   {
     name: 'main',
@@ -41,6 +42,7 @@ const branches = [
 module.exports = createReleaseConfig({
   name,
   srcRoot,
+  pkgRoot,
   branches,
 });
 ```
@@ -50,5 +52,6 @@ module.exports = createReleaseConfig({
 | Option | Type | Default | Description | Examples |
 |--------|------|---------|-------------|-----------|
 | srcRoot | string | './' | The root directory containing your package.json | - './' (Current directory)<br>- './npm-packages/git-cz-config' (Nested package)<br>- './dist/npm-packages/git-cz-config' (Build directory) |
+| pkgRoot | string | 'dist/' | The root directory containing your package.json | - 'dist/' (Build directory)<br>- 'dist/npm-packages/git-cz-config' (Nested package) |
 | name | string | '' | The name of your package. Used in tag format and release message | - '' (No prefix)<br>- 'git-cz-config' (Creates tags like 'git-cz-config-v1.0.0') |
 | branches | { name: string }[] | [{ name: 'main' }] | The branches you want to release from | - [{ name: 'main' }] (Only main branch)<br>- [{ name: 'main' }, { name: 'dev' }] (Multiple branches) |
