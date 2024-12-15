@@ -1,5 +1,4 @@
 module.exports.createMonolithicReleaseConfig = ({
-  name = '',
   srcRoot = './',
   pkgRoot = 'dist/',
   branches = [
@@ -16,10 +15,6 @@ module.exports.createMonolithicReleaseConfig = ({
     throw new Error('pkgRoot parameter is required and must be a string');
   }
 
-  if (typeof name !== 'string') {
-    throw new Error('name parameter must be a string');
-  }
-
   if (
     !Array.isArray(branches) ||
     !branches.length ||
@@ -31,33 +26,17 @@ module.exports.createMonolithicReleaseConfig = ({
   }
 
   return {
-    extends: 'semantic-release-npm-github-publish',
     pkgRoot: pkgRoot,
-    tagFormat: name ? `${name}-v\${version}` : `v\${version}`,
+    tagFormat: `v\${version}`,
     commitPaths: [`${srcRoot}/*`],
     branches: branches,
     plugins: [
       '@semantic-release/commit-analyzer',
       '@semantic-release/release-notes-generator',
-      [
-        '@semantic-release/changelog',
-        {
-          changelogFile: `${srcRoot}/CHANGELOG.md`,
-        },
-      ],
+      '@semantic-release/changelog',
       '@semantic-release/npm',
-      [
-        '@semantic-release/github',
-      ],
-      [
-        '@semantic-release/git',
-        {
-          assets: [`${srcRoot}/package.json`, `${srcRoot}/CHANGELOG.md`],
-          message:
-            `release(version): Release ${name ? `${name} ` : ''}` +
-            '${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-        },
-      ],
+      '@semantic-release/github',
+      '@semantic-release/git',
     ],
   };
 };
