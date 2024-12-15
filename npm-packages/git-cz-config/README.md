@@ -4,11 +4,11 @@ Semantic Git commits config with emoji. ✨🐛💄💚
 
 ## Install
 
-1. Install git-cz by :
+### 1. Install git-cz by :
 
  `pnpm install git-cz -D`
 
-2. Config it in package.json:
+### 2. Config it in package.json:
 
 ```
  "config": {
@@ -18,7 +18,7 @@ Semantic Git commits config with emoji. ✨🐛💄💚
   }
 ```
 
-3. Add script in package.json:
+### 3. Add script in package.json:
 
 ```
 "scripts": {
@@ -26,11 +26,11 @@ Semantic Git commits config with emoji. ✨🐛💄💚
   }
 ```
 
-4. Install @zhumeisong/git-cz-config: 
+### 4. Install @zhumeisong/git-cz-config: 
 
 `pnpm install @zhumeisong/git-cz-config -D`
 
-5. Create a `changelog.config.cjs` file and add:
+### 5. Create a `changelog.config.cjs` file and add:
 
 ```
 const gitCzConfig = require('@zhumeisong/git-cz-config');
@@ -38,7 +38,6 @@ const gitCzConfig = require('@zhumeisong/git-cz-config');
 module.exports = {
   ...gitCzConfig,
 };
-
 ```
 
-6. Run `pnpm run commit` to submit the change.
+### 6. Run `pnpm run commit` to submit the change.
