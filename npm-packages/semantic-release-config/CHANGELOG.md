@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.3.0...semantic-release-config-v1.3.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 the readme of installing for monorepo is old ([aabae22](https://github.com/zhumeisongsong/multiple-products-workspace/commit/aabae2278ccfd717146751771396b472a4022a6e))
+
 # [1.3.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.2.2...semantic-release-config-v1.3.0) (2024-12-15)
 
 
