@@ -1,3 +1,11 @@
+## [1.3.3](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.3.2...semantic-release-config-v1.3.3) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 add space after Release ${name} ([d7b3d8a](https://github.com/zhumeisongsong/multiple-products-workspace/commit/d7b3d8a4c4022db3e367ff7ab5eb08c406a356b8))
+* 🐛 createMonolithicReleaseConfig args ([b7ff194](https://github.com/zhumeisongsong/multiple-products-workspace/commit/b7ff1948818e266ef737f9d44c0405111c1eb93a))
+
 ## [1.3.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/semantic-release-config-v1.3.0...semantic-release-config-v1.3.1) (2024-12-15)
 
 
