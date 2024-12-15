@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/zhumeisongsong/multiple-products-workspace/compare/common-error-exception-v1.0.1...common-error-exception-v1.0.2) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 error type definition ([3bbb78c](https://github.com/zhumeisongsong/multiple-products-workspace/commit/3bbb78cc747edd9d586981ad12d9d5b621d762a3))
+
 ## [1.0.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/common-error-exception-v1.0.0...common-error-exception-v1.0.1) (2024-12-15)
 
 
