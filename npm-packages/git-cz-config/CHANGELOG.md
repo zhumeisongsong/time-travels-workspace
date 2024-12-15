@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.4.0...git-cz-config-v1.4.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 repository url ([606e0fc](https://github.com/zhumeisongsong/multiple-products-workspace/commit/606e0fccc46042dc24ef80b3fe160bc99542b93d))
+
 # [1.4.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.3.0...git-cz-config-v1.4.0) (2024-12-15)
 
 
