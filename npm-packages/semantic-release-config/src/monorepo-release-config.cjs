@@ -1,7 +1,7 @@
 module.exports.createMonorepoReleaseConfig = ({
   name = '',
   srcRoot = './',
-  pkgRoot = 'dist/',
+  pkgRoot = './dist/',
   branches = [
     {
       name: 'main',
@@ -33,7 +33,7 @@ module.exports.createMonorepoReleaseConfig = ({
   return {
     extends: 'semantic-release-npm-github-publish',
     pkgRoot: pkgRoot,
-    tagFormat: name ? `${name}-v\${version}` : `v\${version}`,
+    tagFormat:  `${name}-v\${version}`,
     commitPaths: [`${srcRoot}/*`],
     branches: branches,
     plugins: [
@@ -51,7 +51,7 @@ module.exports.createMonorepoReleaseConfig = ({
         {
           assets: [`${srcRoot}/package.json`, `${srcRoot}/CHANGELOG.md`],
           message:
-            `release(version): Release ${name ? `${name} ` : ''}` +
+            `release(version): Release ${name}` +
             '${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
         },
       ],

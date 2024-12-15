@@ -9,15 +9,11 @@ Semantic release config for publishing NPM packages to GitHub and NPM registry. 
 - GitHub release
 - Git asset updates
 
-## Install
+## Install For Monorepo
 
 ### 1. Install related packages:
 
-`pnpm install semantic-release semantic-release-npm-github-publish @semantic-release/changelog @semantic-release/git -D`
-
-If you are using semantic-release-plus, you can install the following packages:
-
-`pnpm install semantic-release-plus -D`
+`pnpm install semantic-release semantic-release-npm-github-publish @semantic-release/changelog @semantic-release/git semantic-release-plus -D`
 
 ### 2. Install @zhumeisong/semantic-release-config:
 
@@ -27,19 +23,19 @@ If you are using semantic-release-plus, you can install the following packages:
 
 ```
 const {
-  createReleaseConfig,
+  createMonorepoReleaseConfig,
 } = require('@zhumeisong/semantic-release-config');
 
-const name = '';
-const srcRoot = './';
-const pkgRoot = 'dist/';
+const name = 'your-package-name';
+const srcRoot = './your-package-src-root';
+const pkgRoot = 'dist/your-package-pkg-root';
 const branches = [
   {
     name: 'main',
   },
 ];
 
-module.exports = createReleaseConfig({
+module.exports = createMonorepoReleaseConfig({
   name,
   srcRoot,
   pkgRoot,
@@ -49,9 +45,40 @@ module.exports = createReleaseConfig({
 
 ## Configuration Options
 
-| Option | Type | Default | Description | Examples |
-|--------|------|---------|-------------|-----------|
-| srcRoot | string | './' | The root directory containing your package.json | - './' (Current directory)<br>- './npm-packages/git-cz-config' (Nested package)<br>- './dist/npm-packages/git-cz-config' (Build directory) |
-| pkgRoot | string | 'dist/' | The root directory containing your package.json | - 'dist/' (Build directory)<br>- 'dist/npm-packages/git-cz-config' (Nested package) |
-| name | string | '' | The name of your package. Used in tag format and release message | - '' (No prefix)<br>- 'git-cz-config' (Creates tags like 'git-cz-config-v1.0.0') |
-| branches | { name: string }[] | [{ name: 'main' }] | The branches you want to release from | - [{ name: 'main' }] (Only main branch)<br>- [{ name: 'main' }, { name: 'dev' }] (Multiple branches) |
+### name
+
+The name of your package. Used in tag format and release message.
+
+type: `string`
+
+default: ``
+
+example: `@zhumeisong/semantic-release-config`
+
+### srcRoot
+
+The source directory of your package.
+
+type: `string`
+
+default: `./`
+
+example: `npm-packages/semantic-release-config`
+
+### pkgRoot
+
+The build directory of your package.
+
+type: `string`
+
+default: `dist/`
+
+example: `dist/npm-packages/semantic-release-config`
+
+### branches
+
+The branches you want to release from.
+
+type: `{ name: string }[]`
+
+default: `[{ name: 'main' }]`
