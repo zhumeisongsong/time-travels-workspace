@@ -1,6 +1,7 @@
 module.exports.createReleaseConfig = ({
-  srcRoot = './',
   name = '',
+  srcRoot = './',
+  pkgRoot = 'dist/',
   branches = [
     {
       name: 'main',
@@ -9,6 +10,10 @@ module.exports.createReleaseConfig = ({
 }) => {
   if (!srcRoot || typeof srcRoot !== 'string') {
     throw new Error('srcRoot parameter is required and must be a string');
+  }
+
+  if (!pkgRoot || typeof pkgRoot !== 'string') {
+    throw new Error('pkgRoot parameter is required and must be a string');
   }
 
   if (typeof name !== 'string') {
@@ -27,7 +32,7 @@ module.exports.createReleaseConfig = ({
 
   return {
     extends: 'semantic-release-npm-github-publish',
-    pkgRoot: srcRoot,
+    pkgRoot: pkgRoot,
     tagFormat: name ? `${name}-v\${version}` : `v\${version}`,
     commitPaths: [`${srcRoot}/*`],
     branches: branches,
