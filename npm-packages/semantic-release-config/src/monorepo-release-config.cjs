@@ -51,7 +51,7 @@ module.exports.createMonorepoReleaseConfig = ({
         {
           assets: [`${srcRoot}/package.json`, `${srcRoot}/CHANGELOG.md`],
           message:
-            `release(version): Release ${name}` +
+            `release(version): Release ${name} ` +
             '${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
         },
       ],
