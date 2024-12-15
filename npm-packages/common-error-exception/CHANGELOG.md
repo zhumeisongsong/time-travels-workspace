@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/common-error-exception-v1.0.0...common-error-exception-v1.0.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 private true to false ([a1dcfd0](https://github.com/zhumeisongsong/multiple-products-workspace/commit/a1dcfd0323b3bb15d28390f54c2edaea494be392))
+
 # 1.0.0 (2024-12-15)
 
 
