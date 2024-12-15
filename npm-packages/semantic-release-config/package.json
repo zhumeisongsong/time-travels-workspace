@@ -12,7 +12,7 @@
   "main": "./index.cjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhumeisongsong/multiple-products-workspace",
+    "url": "git+https://github.com/zhumeisongsong/multiple-products-workspace.git",
     "directory": "npm-packages/semantic-release-config"
   },
   "publishConfig": {
