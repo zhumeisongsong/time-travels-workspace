@@ -39,4 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
+          # Run semantic-release for each package that has changes
+          pnpm nx run-many -target=release
+          # Run semantic-release-plus for workspace that has changes
           pnpm semantic-release-plus
