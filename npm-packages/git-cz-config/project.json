@@ -1,0 +1,15 @@
+{
+  "name": "@zhumeisong/git-cz-config",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "npm-packages/git-cz-config/src",
+  "targets": {
+    "release": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "pnpm exec semantic-release-plus --extends ./npm-packages/git-cz-config/release.config.cjs",
+        "parallel": false
+      }
+    }
+  }
+}

@@ -42,8 +42,8 @@ importers:
         specifier: ^1.1.4
         version: 1.1.5(@types/react-dom@19.0.2(@types/react@19.0.1))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@zhumeisong/semantic-release-config':
-        specifier: ^1.2.2
-        version: 1.2.3
+        specifier: ^1.3.1
+        version: 1.3.1
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -3384,8 +3384,8 @@ packages:
   '@zhumeisong/git-cz-config@1.2.4':
     resolution: {integrity: sha512-TYG6Mzuy0xGquXlxCkG0fgaPSOr4YwLC/IprXxncWoBJafxloX8FuSIhCsBxYU0P4a+hecJn0Uy8fImJ32njWA==}
 
-  '@zhumeisong/semantic-release-config@1.2.3':
-    resolution: {integrity: sha512-9T21aQA2Lvz7VEOldrPGJNnPx9H+x4qYP7JDNIBM1FnmbeYIoMO0273IoedIy3oZXRbJWHHjhir+r2ig7oVgtQ==}
+  '@zhumeisong/semantic-release-config@1.3.1':
+    resolution: {integrity: sha512-PBH6yGpzc1f3VfJ/I6y3ib8MzVHyag/vIHjlSIiChICkUGEZaHOD/J4bALmBXOlraZhOnEqDO+oPMsJ5Y215ag==}
 
   '@zkochan/js-yaml@0.0.7':
     resolution: {integrity: sha512-nrUSn7hzt7J6JWgWGz78ZYI8wj+gdIJdk0Ynjpp8l+trkn58Uqsf6RYrYkEK+3X18EX+TNdtJI0WxAtc+L84SQ==}
@@ -13284,7 +13284,7 @@ snapshots:
 
   '@zhumeisong/git-cz-config@1.2.4': {}
 
-  '@zhumeisong/semantic-release-config@1.2.3': {}
+  '@zhumeisong/semantic-release-config@1.3.1': {}
 
   '@zkochan/js-yaml@0.0.7':
     dependencies:
