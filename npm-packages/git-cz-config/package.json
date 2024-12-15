@@ -1,6 +1,6 @@
 {
   "name": "@zhumeisong/git-cz-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "type": "commonjs",
   "keywords": [
     "commitizen",

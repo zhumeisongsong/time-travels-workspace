@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.4.1...git-cz-config-v1.4.2) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 update semantic-release-config dependency version ([44d9b1e](https://github.com/zhumeisongsong/multiple-products-workspace/commit/44d9b1ec978032fb519843cb97566035130ee005))
+
 ## [1.4.1](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.4.0...git-cz-config-v1.4.1) (2024-12-15)
 
 
