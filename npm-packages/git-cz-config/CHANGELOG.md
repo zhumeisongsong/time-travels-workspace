@@ -8,6 +8,20 @@
 
 ### Features
 
+* ✨ Remove interference packages for now ([a13de46](https://github.com/zhumeisongsong/multiple-products-workspace/commit/a13de468c1c7d31017ab6c7eec304942397853d2))
+* ✨ revert git-cz-config ([0207699](https://github.com/zhumeisongsong/multiple-products-workspace/commit/0207699c91d22cc8b6e2ea16200f54602b030dc5))
+* ✨ test could release work ([ad09588](https://github.com/zhumeisongsong/multiple-products-workspace/commit/ad09588e3bcd31e859e1e8c953563e98de538ee6))
+
+# [1.3.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.4...git-cz-config-v1.3.0) (2024-12-15)
+
+
+### Bug Fixes
+
+* 🐛 test release packages ([871a581](https://github.com/zhumeisongsong/multiple-products-workspace/commit/871a581bac2fff6ce894507d5955211c6fc30014))
+
+
+### Features
+
 * ✨ test could release work ([ad09588](https://github.com/zhumeisongsong/multiple-products-workspace/commit/ad09588e3bcd31e859e1e8c953563e98de538ee6))
 
 # [1.3.0](https://github.com/zhumeisongsong/multiple-products-workspace/compare/git-cz-config-v1.2.4...git-cz-config-v1.3.0) (2024-12-15)
