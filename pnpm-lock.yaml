@@ -172,8 +172,8 @@ importers:
         specifier: ^2.0.0
         version: 2.1.8(vitest@2.1.8)
       '@zhumeisong/git-cz-config':
-        specifier: ^1.2.0
-        version: 1.2.4
+        specifier: ^1.4.1
+        version: 1.4.1
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -3381,8 +3381,8 @@ packages:
     resolution: {integrity: sha512-/HcYgtUSiJiot/XWGLOlGxPYUG65+/31V8oqk17vZLW1xlCoR4PampyePljOxY2n8/3jz9+tIFzICsyGujJZoA==}
     engines: {node: '>=18.12.0'}
 
-  '@zhumeisong/git-cz-config@1.2.4':
-    resolution: {integrity: sha512-TYG6Mzuy0xGquXlxCkG0fgaPSOr4YwLC/IprXxncWoBJafxloX8FuSIhCsBxYU0P4a+hecJn0Uy8fImJ32njWA==}
+  '@zhumeisong/git-cz-config@1.4.1':
+    resolution: {integrity: sha512-Cy6NwTuJR6Ew2xedA409yFts9vncs2ApC5r9fjzeTg/BNbaROSjCO403pfItH44DCA6hrM9his747xMToxWiGQ==}
 
   '@zhumeisong/semantic-release-config@1.3.1':
     resolution: {integrity: sha512-PBH6yGpzc1f3VfJ/I6y3ib8MzVHyag/vIHjlSIiChICkUGEZaHOD/J4bALmBXOlraZhOnEqDO+oPMsJ5Y215ag==}
@@ -13282,7 +13282,9 @@ snapshots:
       js-yaml: 3.14.1
       tslib: 2.8.1
 
-  '@zhumeisong/git-cz-config@1.2.4': {}
+  '@zhumeisong/git-cz-config@1.4.1':
+    dependencies:
+      '@zhumeisong/semantic-release-config': 1.3.1
 
   '@zhumeisong/semantic-release-config@1.3.1': {}
 
