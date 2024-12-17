@@ -72,13 +72,7 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+  a {
+    transition: all 0.2s ease-in-out;
   }
 }
