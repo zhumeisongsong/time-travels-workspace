@@ -8,8 +8,8 @@ export const Navigation: React.FC = () => {
       <div className="max-w-screen-md w-full mx-auto px-4 flex justify-between items-center">
         <Link to="/">
           <div className="flex items-center gap-2">
-            <Sprout strokeWidth={1.8} />
-            <div className="text-xl font-bold">Daily Delight</div>
+            <Sprout strokeWidth={1.7} />
+            <div className="text-lg font-bold">Daily Delight</div>
           </div>
         </Link>
 
